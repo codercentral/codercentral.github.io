@@ -17,6 +17,9 @@ html,body{
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    .element, .outro{
+        font-size:50px;
+    }
     #home{
         padding-top:3.9%;
     }
@@ -134,6 +137,9 @@ html,body{
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
+    .element, .outro{
+        font-size:30px;
+    }
     #home{
         padding-top:3.9%;
     }
@@ -245,6 +251,9 @@ html,body{
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 480px) and (max-width: 767px) {
+    .element, .outro{
+        font-size:30px;
+    }
     #home{
         padding-top:5%;
     }
@@ -363,6 +372,9 @@ html,body{
 
 /* Landscape phones and down */
 @media (max-width: 479px) {
+    .element, .outro{
+        font-size:20px;
+    }
     #home{
         padding-top:5%;
     }
@@ -478,6 +490,27 @@ html,body{
         padding-top: 18%;
     }
 
+}
+
+#welcome{ margin:10px !important; }
+
+#home-welcome{
+    background-color:lightblue;
+    position:absolute;
+    padding:3%;
+    z-index:10;
+    opacity:.8;
+    color:black;
+    border-radius:10px;
+}
+
+#home-welcome p{
+    font-size:15px;
+    line-height:200%;
+}
+
+#home-welcome button{
+    float:right !important;
 }
 
 .contactHeading{

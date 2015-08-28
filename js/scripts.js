@@ -52,7 +52,7 @@ function introduction(){
                     $('#intro').fadeOut();
                 },800);
                 setTimeout(function(){
-                    window.location = "homepage.html";
+                    //window.location = "homepage.html";
                 },1000);
             }
         });
@@ -73,7 +73,7 @@ function homeAnimation(){
 
         setTimeout(function(){
             $('#aboutInfo').animate({
-                "width":'40%'
+                "width":'50%'
             },2000,function(){
                 $('#welcome').fadeIn();
             });
@@ -108,9 +108,12 @@ function homeAnimation(){
                 $(this).parent().removeClass('shaded');
             });
 
-            aboutH=winHeight*.65;
+            aboutH=winHeight*.1;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
+            });
+            $('#home-welcome').css({
+                'top':(winHeight *.45)+'px'
             });
         }else{
             aboutH=winHeight*.25;
