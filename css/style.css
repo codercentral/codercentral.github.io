@@ -484,7 +484,7 @@ html,body{
 #welcome{ margin:10px !important; }
 
 #home-welcome{
-    background-color:lightyellow;
+    background-color:lightblue;
     position:absolute;
     padding:3%;
     z-index:10;
@@ -752,9 +752,18 @@ a:hover{
 .flip-text{
     text-align:center;
     margin:0;
-    padding-top:40%;
+
 }
 
+.lg-text{
+    padding-top:60%;
+    padding-bottom:50%;
+}
+
+.sm-text{
+    padding-top:40%;
+    padding-bottom:30%;
+}
  a{
    text-decoration: none;
 }
@@ -764,13 +773,13 @@ a:hover{
 }
 
 #instructor-tile{
-    background-color: rgb(210,181,146);
+    background-color: rgb(45,99,99);
 }
 
 #register-tile{
-    background-color: rgb(45,99,99);
-    padding-top:2% !important;
-    color:white !important;
+    background-color: rgb(210,181,146);
+    padding-top:2%;
+    color:white;
 }
 
 #blog-tile{

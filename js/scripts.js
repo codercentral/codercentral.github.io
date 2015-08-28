@@ -91,16 +91,16 @@ function homeAnimation(){
     var tiles=[$('#instructor-tile'),$('#event-tile'),$('#blog-tile'),$('#register-tile')];
 
     tiles[0].css({
-        height:$('#instructor-tile').width()*1.3+"px"
+        height:$('#instructor-tile').width()*1.37+"px"
     });
     tiles[1].css({
-        height:$('#event-tile').width() *1.3+"px"
+        height:$('#event-tile').width() *.96+"px"
     });
     tiles[2].css({
-        height:($('#blog-tile').width() *1.3)+"px"
+        height:($('#blog-tile').width() *.96)+"px"
     });
     tiles[3].css({
-        height:$('#register-tile').width()*.33+"px"
+        height:$('#register-tile').width()*.4+"px"
     });
 
     var tile=$('.tiles');
@@ -109,23 +109,23 @@ function homeAnimation(){
             //this makes text larger
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
-                    'font-size':'30px'
+                    'font-size':'35px'
                 },100);
                 $(this).parent().addClass('shaded');
             });
             tile.on('mouseout','.flip-text',function(){
                 $(this).animate({
-                    'font-size':'27px'
+                    'font-size':'30px'
                 },100);
                 $(this).parent().removeClass('shaded');
             });
             //this sets up the heights of the slider and introduction text
-            aboutH=winHeight*.1;
+            aboutH=winHeight*.15;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
             });
             $('#home-welcome').css({
-                'top':(winHeight *.45)+'px'
+                'top':(winHeight *.40)+'px'
             });
         }else{
             aboutH=winHeight*.25;
