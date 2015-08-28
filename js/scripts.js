@@ -88,13 +88,25 @@ function homeAnimation(){
             .end()
             .appendTo('#slideshow');
     },  6000);
-        var tile=$('.tile');
-        var tileHeight=tile.width()*1.2;
-        tile.css({
-            'height':tileHeight + 'px',
-            'width':'100%'
-        });
+    var tiles=[$('#instructor-tile'),$('#event-tile'),$('#blog-tile'),$('#register-tile')];
+
+    tiles[0].css({
+        height:$('#instructor-tile').width()*1.3+"px"
+    });
+    tiles[1].css({
+        height:$('#event-tile').width() *1.3+"px"
+    });
+    tiles[2].css({
+        height:($('#blog-tile').width() *1.3)+"px"
+    });
+    tiles[3].css({
+        height:$('#register-tile').width()*.33+"px"
+    });
+
+    var tile=$('.tiles');
+
         if(winWidth>757){
+            //this makes text larger
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
                     'font-size':'30px'
@@ -103,11 +115,11 @@ function homeAnimation(){
             });
             tile.on('mouseout','.flip-text',function(){
                 $(this).animate({
-                    'font-size':'22px'
+                    'font-size':'27px'
                 },100);
                 $(this).parent().removeClass('shaded');
             });
-
+            //this sets up the heights of the slider and introduction text
             aboutH=winHeight*.1;
             $('#aboutInfo').css({
                 'top': aboutH +'px'

@@ -57,11 +57,6 @@ html,body{
         margin-top: 0px;
         padding-left: 65px;
     }
-    .tile{
-        padding-top:55% !important;
-        padding-bottom:55% !important;
-    }
-
     #aboutInfo{
         height:80px;
     }
@@ -143,10 +138,7 @@ html,body{
     #home{
         padding-top:3.9%;
     }
-    .tile{
-        padding-top:55% !important;
-        padding-bottom:55% !important;
-    }
+
     #aboutInfo{
         height:80px;
     }
@@ -260,10 +252,7 @@ html,body{
     #welcome{
         font-size:20px;
     }
-    .tile{
-        padding-top:55% !important;
-        padding-bottom:55% !important;
-    }
+
     #contact-tile{
         font-size:20px;
     }
@@ -495,7 +484,7 @@ html,body{
 #welcome{ margin:10px !important; }
 
 #home-welcome{
-    background-color:lightblue;
+    background-color:lightyellow;
     position:absolute;
     padding:3%;
     z-index:10;
@@ -557,8 +546,6 @@ a:hover{
 }
 
 .shaded{
-    width:100%;
-    height:100%;
     background-color: #204d74 !important;
     cursor:pointer;
 }
@@ -684,7 +671,7 @@ a:hover{
     height:auto;
 }
 
-.tile{
+.tiles{
     margin:0 !important;
     padding:0;
     text-align:center;
@@ -762,21 +749,38 @@ a:hover{
     color:white;
 }
 
-#contact-tile{
+.flip-text{
+    text-align:center;
+    margin:0;
+    padding-top:40%;
+}
+
+ a{
+   text-decoration: none;
+}
+
+#right-side > a{
+    text-decoration: none;
+}
+
+#instructor-tile{
     background-color: rgb(210,181,146);
 }
 
 #register-tile{
     background-color: rgb(45,99,99);
+    padding-top:2% !important;
+    color:white !important;
 }
 
 #blog-tile{
     background-color: rgb(202,131,108);
 }
 
-#courses-tile{
+#event-tile{
     background-color: rgb(61,125,147);
 }
+
 
 #intro{
     text-align:center;
