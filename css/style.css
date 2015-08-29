@@ -583,6 +583,52 @@ a:hover{
     margin:5%;
 }
 
+.track-circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.track-box{
+    height: 250px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.track-box-top{
+    height: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 30px;
+}
+
+.track-box-bottom{
+    height: 20%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.robotics-track-color{
+    background-color: #DA4B2F;
+}
+
+.apcs-track-color{
+    background-color: #407AC9;
+}
+
+.webdesign-track-color{
+    background-color: #E7D25F;
+}
+
+#robotics-circle{}
+#apcs-circle{}
+#webdesign-circle{}
+
 #slideshow {
     margin: 50px auto;
     position: relative;
@@ -806,21 +852,21 @@ a:hover{
 }
 
 #instructor-tile{
-    background-color: rgb(45,99,99);
+    background-color: rgb(97,99,97);
 }
 
 #register-tile{
-    background-color: rgb(210,181,146);
+    background-color: rgb(211,198,149);
     padding-top:2%;
     color:white;
 }
 
 #blog-tile{
-    background-color: rgb(202,131,108);
+    background-color: rgb(129,149,60);
 }
 
 #event-tile{
-    background-color: rgb(61,125,147);
+    background-color: rgb(135,179,204);
 }
 
 
