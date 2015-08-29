@@ -78,6 +78,27 @@ html,body{
         font-size: 150px;
     }
 
+    .top-title{
+        font-family: archiveregular;
+        font-size: 150px;
+        padding-top: 4%;
+        padding-right: 10%;
+    }
+
+    .header{
+        color: white;
+        margin-top: 0;
+        padding-left: 5%;
+        padding-top: 1.75%;
+        padding-bottom: 4%;
+    }
+
+    .statement{
+        padding-right: 18%;
+        padding-left: 5%;
+        font-size: 20px;
+    }
+
     #course-header{
         color: white;
         margin-top: 0;
@@ -481,6 +502,13 @@ html,body{
 
 }
 
+.event-logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+}
+
 #welcome{ margin:10px !important; }
 
 #home-welcome{
@@ -767,6 +795,11 @@ a:hover{
  a{
    text-decoration: none;
 }
+
+ .btn{
+     font-family:archiveregular;
+     margin:1%;
+ }
 
 #right-side > a{
     text-decoration: none;
