@@ -120,12 +120,12 @@ function homeAnimation(){
                 $(this).parent().removeClass('shaded');
             });
             //this sets up the heights of the slider and introduction text
-            aboutH=winHeight*.15;
+            aboutH=winHeight*.1;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
             });
             $('#home-welcome').css({
-                'top':(winHeight *.40)+'px'
+                'top':(winHeight *.35)+'px'
             });
         }else{
             aboutH=winHeight*.25;

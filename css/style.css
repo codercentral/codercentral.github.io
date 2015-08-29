@@ -526,7 +526,7 @@ html,body{
     line-height:200%;
 }
 
-#home-welcome button{
+#home-welcome a{
     float:right !important;
 }
 
@@ -856,7 +856,8 @@ a:hover{
 }
 
 #register-tile{
-    background-color: rgb(211,198,149);
+    background-color: rgb(135,179,204);
+
     padding-top:2%;
     color:white;
 }
@@ -866,7 +867,7 @@ a:hover{
 }
 
 #event-tile{
-    background-color: rgb(135,179,204);
+    background-color: rgb(211,198,149);
 }
 
 
