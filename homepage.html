@@ -26,10 +26,9 @@
             <nav class="navbar navbar-default navbar-fixed-top">
             </nav>
             <!---------------------------------------------------navbar stuff---------------------------------------------->
-            <div id="aboutInfo"><h1 id="welcome" style="display:none">Learning powered by curiosity</h1>
-            </div>
             <div class="home-banner">
             <div class="home-banner row">
+                <div id="aboutInfo"><h1 id="welcome" style="display:none">Learning powered by curiosity</h1></div>
                 <div class="col-md-8 col-xs-12" style="padding:0 !important;">
                     <img id='about-tile' src="images/dhuang.jpeg" class="col-md-12 col-xs-12" style="padding:0 !important"/>
                     <div id="home-welcome" class="col-md-9 col-xs-8" style="margin-left:16%;">
@@ -80,10 +79,10 @@
             <div class="container" style="padding-top: 0.175%; padding-bottom:3%">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="track-box robotics-circle" style="border-color: #407AC9">
+                        <div class="track-box" style="border-color: #407AC9">
                             <div class="track-box-top robotics-track-color" style="text-align: center">Robotics</div>
-                            <div class="track-box-middle robotics-circle">
-                                <div class="track-circle robotics-circle robotics-track-color"></div>
+                            <div class="track-box-middle">
+                                <div class="track-circle robotics-track-color" id="robotics-circle"></div>
                             </div>
                             <div class="track-box-bottom">
                                 <p class="track-description">Learn to build and program your own robot using a Raspberry Pi or Arduino for your own creative projects.</p>
@@ -91,10 +90,10 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="track-box apcs-circle" style="border-color: #E7D25F">
+                        <div class="track-box" style="border-color: #E7D25F">
                             <div class="track-box-top apcs-track-color" style="text-align: center">AP Computer Science</div>
-                            <div class="track-box-middle apcs-circle">
-                                <div class="track-circle apcs-circle apcs-track-color"></div>
+                            <div class="track-box-middle">
+                                <div class="track-circle apcs-track-color" id="apcs-circle"></div>
                             </div>
                             <div class="track-box-bottom">
                                 <p class="track-description">Develop a solid understanding of the material for the class and AP Exam through projects and real AP multiple-choice problems.</p>
@@ -102,10 +101,10 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="track-box webdev-circle" style="border-color: #DA4B2F">
+                        <div class="track-box" style="border-color: #DA4B2F">
                             <div class="track-box-top webdev-track-color" style="text-align: center">Web Development</div>
-                            <div class="track-box-middle webdev-circle">
-                                <div class="track-circle webdev-circle webdev-track-color"></div>
+                            <div class="track-box-middle">
+                                <div class="track-circle webdev-track-color" id="webdev-circle"></div>
                             </div>
                             <div class="track-box-bottom">
                                 <p class="track-description">Master building and designing interactive websites with HTML, CSS, and Javascript - the fundamentals of the Web.</p>
@@ -214,21 +213,6 @@
                             <div class="separator text-muted">
                                 <time>6. 22. 2015</time>
                             </div>
-                            <!-- Panel -->
-                            <article class="panel panel-default panel-outline">
-                                <!-- Icon -->
-                                <div class="panel-heading icon">
-                                    <i class="glyphicon glyphicon-picture"></i>
-                                </div>
-                                <!-- /Icon -->
-                                <!-- Body -->
-                                <div class="panel-body">
-                                    <img class="img-responsive img-rounded" src="images/grouppic.jpg" style="width:35%; height:auto" />
-                                </div>
-                                <!-- /Body -->
-
-                            </article>
-                            <!-- /Panel -->
 
                             <!-- Panel -->
                             <article class="panel panel-primary">
@@ -261,11 +245,10 @@
                             <!-- /Separator -->
 
                             <!-- Panel -->
-                            <article class="panel panel-success">
-
+                            <article class="panel panel-default">
                                 <!-- Icon -->
                                 <div class="panel-heading icon">
-                                    <i class="glyphicon glyphicon-plus"></i>
+                                    <i class="glyphicon glyphicon-picture"></i>
                                 </div>
                                 <!-- /Icon -->
 
@@ -277,19 +260,39 @@
 
                                 <!-- Body -->
                                 <div class="panel-body">
-                                    A three week intensive bootCamp that offer course selections including:
-                                    <ul>
-                                        <li><a href="Courses/java.html">Java</a></li>
-                                        <li><a href="python.html">Python</a></li>
-                                        <li><a href="Courses/cpp.html">C++</a></li>
-                                        <li><a href="webdesign.html">Web Development</a></li>
-                                        <li><a href="Courses/unity.html">Unity</a></li>
-                                        <li><a href="graphics.html">Graphic Design</a></li>
-                                        <li><a href="Courses/portfolio.html">Portfolio Review</a></li>
-                                    </ul>
-                                    Java, Python, C++, Web Development, Unity, as well as Graphic Design.
-                                    Teachers include students from UCLA, UC Irvine, California Institute of Arts, and
-                                    Amador Valley High School's renown AVBots team.
+                                    <img class="img-responsive img-rounded center-block" src="images/holdingSidd.jpg" style="width:45%; height:auto" />
+                                </div>
+                                <!-- /Body -->
+
+                            </article>
+                            <!-- /Panel -->
+
+                            <!-- Separator -->
+                            <div class="separator text-muted">
+                                <time>8. 29. 2015</time>
+                            </div>
+                            <!-- /Separator -->
+
+                            <!-- Panel -->
+                            <article class="panel panel-success">
+
+                                <!-- Icon -->
+                                <div class="panel-heading icon">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </div>
+                                <!-- /Icon -->
+
+                                <!-- Heading -->
+                                <div class="panel-heading">
+                                    <h2 class="panel-title">CoderCon;</h2>
+                                </div>
+                                <!-- /Heading -->
+
+                                <!-- Body -->
+                                <div class="panel-body">
+                                    <div style="padding-bottom:8px">CoderCon brought 150 coders, artists, and designers of all skill levels -beginning to advanced- together for interactive workshops, discussion panels, and a hackathon.
+                                    </div>
+                                    <img class="img-responsive img-rounded center-block" src="images/coderconpaint.jpg" style="width:58%; height:auto;"/>
                                 </div>
                                 <!-- /Body -->
                             </article>
