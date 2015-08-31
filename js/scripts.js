@@ -52,7 +52,7 @@ function introduction(){
                     $('#intro').fadeOut();
                 },800);
                 setTimeout(function(){
-                    //window.location = "homepage.html";
+                    window.location = "homepage.html";
                 },1000);
             }
         });
