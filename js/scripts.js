@@ -9,56 +9,11 @@ jQuery(document).ready(function(){
 
     var winWidth= $(window).width();
     homeAnimation();
-    introduction();
     aboutPage();
+    paths();
 });
 
-function introduction(){
-    var introText=$(".element");
-    var outro=$('.outro');
-    introText.typed({
-        strings: ["} Coder.Central();"],
-        // typing speed
-        typeSpeed: 80,
-        // time before typing starts
-        startDelay: 400,
-        loopCount: false,
-        // show cursor
-        showCursor: false,
-        callback:function(){
-            $('.typed-cursor').fadeOut('fast');
-        }
-    });
 
-    var winHeight= $(window).height();
-    //var winWidth= $(window).width();
-    var introHeight=(winHeight/2-100);
-    $('#intro').css({
-        'top': introHeight+'px'
-    });
-    setTimeout(function(){
-        introText.fadeOut('medium');
-        outro.typed({
-            strings: ["> Be Inspired."],
-            // typing speed
-            typeSpeed: 80,
-            // time before typing starts
-            startDelay: 300,
-            loopCount: false,
-            // show cursor
-            showCursor: false,
-            callback: function() {
-                setTimeout(function(){
-                    $('#intro').fadeOut();
-                },800);
-                setTimeout(function(){
-                    //window.location = "homepage.html";
-                },1000);
-            }
-        });
-    },3500);
-
-}
 function htmlCourse(){
     var winHeight= $(window).height();
     var winWidth = $(window).width();
@@ -153,5 +108,22 @@ function aboutPage(){
 }
 
 function paths(){
-
+    $('#blue-track').on('mouseenter',function(){
+        $('#blue').fadeIn();
+    });
+    $('#blue-track').on('mouseout',function(){
+        $('#blue').fadeOut();
+    });
+    $('#red-track').on('mouseenter',function(){
+        $('#red').fadeIn();
+    });
+    $('#red-track').on('mouseout',function(){
+        $('#red').fadeOut();
+    });
+    $('#yellow-track').on('mouseenter',function(){
+        $('#yellow').fadeIn();
+    });
+    $('#yellow-track').on('mouseout',function(){
+        $('#yellow').fadeOut();
+    });
 }

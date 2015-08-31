@@ -167,10 +167,6 @@ line-height: normal;
     color:white;
 }
 
-.home-bg{
-    display:none;
-}
-
 body{
     background: white;
     font-family: archiveregular, sans-serif;
@@ -430,9 +426,13 @@ a:hover{
 }
 
 .footer{
+    font-family:archiveregular;
     background-color:rgb(52,50,54);
     padding: 8% 15% 5% 13%;
     color:white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .footer-title{
