@@ -128,11 +128,10 @@ html,body{
 #welcome{ margin:10px !important; }
 
 #home-welcome{
-    background-color:lightblue;
+    background-color:rgba(173,216,230,.8);
     position:absolute;
     padding:3%;
     z-index:10;
-    opacity:.8;
     color:black;
     border-radius:10px;
     bottom: 35px;

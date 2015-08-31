@@ -136,22 +136,24 @@ function aboutPage(){
 }
 
 function paths(){
-    $('#blue-track').on('mouseenter',function(){
+    var tracks=[$('#blue-track'),$('#red-track'),$('#yellow-track')];
+
+    tracks[0].on('mouseenter',function(){
         $('#blue').fadeIn();
     });
-    $('#blue-track').on('mouseout',function(){
+    tracks[0].on('mouseout',function(){
         $('#blue').fadeOut();
     });
-    $('#red-track').on('mouseenter',function(){
+    tracks[1].on('mouseenter',function(){
         $('#red').fadeIn();
     });
-    $('#red-track').on('mouseout',function(){
+    tracks[1].on('mouseout',function(){
         $('#red').fadeOut();
     });
-    $('#yellow-track').on('mouseenter',function(){
+    tracks[2].on('mouseenter',function(){
         $('#yellow').fadeIn();
     });
-    $('#yellow-track').on('mouseout',function(){
+    tracks[2].on('mouseout',function(){
         $('#yellow').fadeOut();
     });
 }
