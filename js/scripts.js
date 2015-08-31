@@ -73,7 +73,7 @@ function homeAnimation(){
 
         setTimeout(function(){
             $('#aboutInfo').animate({
-                "width":'50%'
+                "width":'60%'
             },2000,function(){
                 $('#welcome').fadeIn();
             });
@@ -125,7 +125,7 @@ function homeAnimation(){
                 'top': aboutH +'px'
             });
             $('#home-welcome').css({
-                'top':(winHeight *.35)+'px'
+                'top':(winHeight *.32)+'px'
             });
         }else{
             aboutH=winHeight*.25;
