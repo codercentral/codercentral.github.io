@@ -1,0 +1,62 @@
+body{
+	background-color:#f6f5ed;
+}
+
+header{
+	background-color:black;
+	color:white;
+	padding:1%;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	box-sizing:border-box;
+}
+
+p{
+	color:#444444;
+	line-height:200%;
+}
+
+h1{
+	color:#111111;
+}
+
+img{
+	display:block;
+	margin:auto;
+}
+
+header h1{
+	color:orange;
+}
+
+button{
+	padding:2%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	border-radius:10px;
+	background-color:lightgrey;
+	cursor:pointer;
+}
+
+a{
+	text-decoration:none;
+}
+
+#slogan{
+	color:grey;
+}
+
+.container{
+	margin:10%;
+}
+
+.links{
+	float:right;
+	color:white;
+	font-size:20px;
+	margin:10px;
+}
