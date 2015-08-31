@@ -151,3 +151,7 @@ function aboutPage(){
         'height':abtTileH2+'px'
     });
 }
+
+function paths(){
+
+}
