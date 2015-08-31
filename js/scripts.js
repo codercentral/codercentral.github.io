@@ -5,60 +5,26 @@
 
 jQuery(document).ready(function(){
 
-//    htmlCourse();
-
-    var winWidth= $(window).width();
-    homeAnimation();
-    introduction();
-    aboutPage();
-});
-
-function introduction(){
-    var introText=$(".element");
-    var outro=$('.outro');
-    introText.typed({
-        strings: ["} Coder.Central();"],
-        // typing speed
-        typeSpeed: 80,
-        // time before typing starts
-        startDelay: 400,
-        loopCount: false,
-        // show cursor
-        showCursor: false,
-        callback:function(){
-            $('.typed-cursor').fadeOut('fast');
+    $.ajax('navbar.html',{
+        success:function(response){
+            $('nav').html(response);
+        }
+    });
+    $.ajax('footer.html',{
+        success:function(response){
+            $('.footer').html(response);
         }
     });
 
-    var winHeight= $(window).height();
-    //var winWidth= $(window).width();
-    var introHeight=(winHeight/2-100);
-    $('#intro').css({
-        'top': introHeight+'px'
-    });
-    setTimeout(function(){
-        introText.fadeOut('medium');
-        outro.typed({
-            strings: ["> Be Inspired."],
-            // typing speed
-            typeSpeed: 80,
-            // time before typing starts
-            startDelay: 300,
-            loopCount: false,
-            // show cursor
-            showCursor: false,
-            callback: function() {
-                setTimeout(function(){
-                    $('#intro').fadeOut();
-                },800);
-                setTimeout(function(){
-                    //window.location = "homepage.html";
-                },1000);
-            }
-        });
-    },3500);
+    homeAnimation();
+    circle_animation('robotics');
+    circle_animation('apcs');
+    circle_animation('webdev');
+    aboutPage();
+    paths();
 
-}
+});
+
 function htmlCourse(){
     var winHeight= $(window).height();
     var winWidth = $(window).width();
@@ -88,57 +54,74 @@ function homeAnimation(){
             .end()
             .appendTo('#slideshow');
     },  6000);
+
     var tiles=[$('#instructor-tile'),$('#event-tile'),$('#blog-tile'),$('#register-tile')];
 
+    // Set height of the tiles based on the width
     tiles[0].css({
-        height:$('#instructor-tile').width()*1.37+"px"
+        height:$('#instructor-tile').width()*0.398+"px"
     });
     tiles[1].css({
-        height:$('#event-tile').width() *.96+"px"
+        height:$('#event-tile').width()*.96+"px"
     });
     tiles[2].css({
-        height:($('#blog-tile').width() *.96)+"px"
+        height:$('#blog-tile').width()*.96+"px"
     });
     tiles[3].css({
-        height:$('#register-tile').width()*.4+"px"
+        height:$('#register-tile').width()*1.371+"px"
     });
 
+    
     var tile=$('.tiles');
 
-        if(winWidth>757){
-            //this makes text larger
-            tile.on("mouseenter",'.flip-text',function(){
-                $(this).animate({
-                    'font-size':'35px'
-                },100);
-                $(this).parent().addClass('shaded');
-            });
-            tile.on('mouseout','.flip-text',function(){
-                $(this).animate({
-                    'font-size':'30px'
-                },100);
-                $(this).parent().removeClass('shaded');
-            });
-            //this sets up the heights of the slider and introduction text
-            aboutH=winHeight*.1;
-            $('#aboutInfo').css({
-                'top': aboutH +'px'
-            });
-            $('#home-welcome').css({
-                'top':(winHeight *.32)+'px'
-            });
-        }else{
-            aboutH=winHeight*.25;
-            $('#aboutInfo').css({
-                'top': aboutH +'px'
-            });
-
-            aboutH=winHeight*.819;
-            $('home-banner').css({
-               'height':aboutH+'px'
-            });
-        }
+    // If on desktop, when mouse hovers over a tile, increase the font size and tile color
+    if(winWidth>757){
+        //this makes text larger
+        tile.on("mouseenter",'.flip-text',function(){
+            $(this).animate({
+                'font-size':'35px'
+            },100);
+            $(this).parent().addClass('shaded');
+        });
+        tile.on('mouseout','.flip-text',function(){
+            $(this).animate({
+                'font-size':'30px'
+            },100);
+            $(this).parent().removeClass('shaded');
+        });
+    }
 }
+
+function circle_animation(name, scalarEnlarge, lh1, lh2, speed) {
+    // Default values for lh1, lh2 to vertically align text and speed
+    scalarEnlarge = typeof scalarEnlarge !== 'undefined' ? scalarEnlarge : 1.1;
+    lh1 = typeof lh1 !== 'undefined' ? a : 0.93;
+    lh2 = typeof lh2 !== 'undefined' ? a : 0.87;
+    speed = typeof speed != 'undefined' ? speed : 175;
+
+    var circleName = '.'+name+'-circle';
+    var circleDim = 140;
+
+    // Equation so that circle to enlarge in the center
+    var enlarge = (circleDim / 2) * (scalarEnlarge - 1);
+
+    //Multiple selectors to select specific track
+    var combinedBox = circleName + '.track-box';
+    var combinedCircle = circleName + '.track-circle';
+    var combinedMiddle = circleName + '.track-box-middle'
+
+    // mouseenter - circle gets bigger, mouseleave - returns to normal size
+    $(combinedBox).on('mouseenter mouseleave', function (ev) {
+        if(ev.type == 'mouseenter'){
+            $(combinedCircle).animate({'height': scalarEnlarge*circleDim+'px', 'width': scalarEnlarge*circleDim+'px'}, speed);
+            $(combinedMiddle).animate({'padding': 20+'px'}, speed);
+        } else {
+            $(combinedCircle).animate({'height': circleDim+'px', 'width': circleDim+'px'}, speed);
+            $(combinedMiddle).animate({'padding': 25+'px'}, speed);
+        }
+    });
+}
+
 function aboutPage(){
     var winHeight= $(window).height();
     var abtTileH=winHeight*.27;
@@ -149,5 +132,28 @@ function aboutPage(){
     });
     $('.abt-tiles-tall').css({
         'height':abtTileH2+'px'
+    });
+}
+
+function paths(){
+    var tracks=[$('#blue-track'),$('#red-track'),$('#yellow-track')];
+
+    tracks[0].on('mouseenter',function(){
+        $('#blue').fadeIn();
+    });
+    tracks[0].on('mouseout',function(){
+        $('#blue').fadeOut();
+    });
+    tracks[1].on('mouseenter',function(){
+        $('#red').fadeIn();
+    });
+    tracks[1].on('mouseout',function(){
+        $('#red').fadeOut();
+    });
+    tracks[2].on('mouseenter',function(){
+        $('#yellow').fadeIn();
+    });
+    tracks[2].on('mouseout',function(){
+        $('#yellow').fadeOut();
     });
 }

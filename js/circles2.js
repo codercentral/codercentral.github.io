@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	// Animates the circle
 	function circle_animation(name, scalarEnlarge, lh1, lh2, speed) {
 		// Default values for lh1, lh2 to vertically align text and speed
@@ -9,6 +8,8 @@ $(document).ready(function() {
 		speed = typeof speed != 'undefined' ? speed : 175;
 
 		var circleName = '#'+name+'-circle';
+
+		console.log(circleNam);
 
 		// Obtain pixel sizes from DOM
 		var circleDimString = $(circleName).css('height');
