@@ -4,7 +4,12 @@
 
 
 jQuery(document).ready(function(){
-
+    homeAnimation();
+    circle_animation('robotics');
+    circle_animation('apcs');
+    circle_animation('webdev');
+    aboutPage();
+    paths();
     $.ajax('navbar.html',{
         success:function(response){
             $('nav').html(response);
@@ -16,12 +21,7 @@ jQuery(document).ready(function(){
         }
     });
 
-    homeAnimation();
-    circle_animation('robotics');
-    circle_animation('apcs');
-    circle_animation('webdev');
-    aboutPage();
-    paths();
+
 
 });
 
