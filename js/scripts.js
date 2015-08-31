@@ -5,12 +5,16 @@
 
 jQuery(document).ready(function(){
 
-//    htmlCourse();
+    $.ajax('navbar.html',{
+        success:function(response){
+            $('nav').html(response);
+        }
+    });
 
-    var winWidth= $(window).width();
     homeAnimation();
     aboutPage();
     paths();
+
 });
 
 
