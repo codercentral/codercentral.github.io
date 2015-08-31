@@ -584,7 +584,7 @@ a:hover{
 .track-box-middle{
     height: 50%;
     padding: 25px;
-    background-color: white;
+    background-color: #FDFDFD;
 }
 
 .track-box-bottom{
@@ -592,6 +592,12 @@ a:hover{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #F0F0F0;
+}
+
+.track-description{
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
 }
 
 .robotics-track-color{ background-color: #407AC9 }
