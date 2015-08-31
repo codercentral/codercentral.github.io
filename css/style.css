@@ -425,6 +425,13 @@ a:hover{
     text-align:center;
 }
 
+.line{
+    height:3px;
+    background-color:lightgrey;
+    width:75%;
+    margin-left:12.5%;
+}
+
 .footer{
     font-family:archiveregular;
     background-color:rgb(52,50,54);

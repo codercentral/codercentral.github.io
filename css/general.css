@@ -96,6 +96,8 @@ body{ overflow-x:hidden; }
 
 .sub-header-title{ margin-bottom:1%; }
 
+.header-description{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
 #tracks{  background-color:#23C3CD; margin-bottom:4%; }
 
 .tracks{
