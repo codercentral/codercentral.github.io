@@ -1,0 +1,43 @@
+#cpp{  background-color: #92C2C0;  }
+
+#java{ background-color: rgb(67,51, 128)}
+
+b{
+    font-family: archiveregular, sans-serif;
+}
+
+.course-info{
+    margin-top: 3em;
+}
+
+.lesson:first-child{
+    margin-top: 2em;
+}
+
+b img{
+    margin-right: 1em;
+}
+
+.lesson{
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+.number{
+    font-size: 1.8em;
+    margin-right: 0.9em;
+}
+
+.instructor-img{
+    display: inline-block;
+    height: 10em;
+    margin: 0 0 0.5em 1em;
+}
+
+.space{
+    opacity: 0;
+}
+
+.info button{
+    margin-left: 30%;
+}
