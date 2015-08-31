@@ -135,6 +135,8 @@ html,body{
     opacity:.8;
     color:black;
     border-radius:10px;
+    bottom: 35px;
+    right: 35px;
 }
 
 #home-welcome p{
@@ -146,11 +148,7 @@ html,body{
     float:right !important;
 }
 
-.contactHeading{
-    text-align: left;
-    background: rgb(210,181,146);
-    color:white;
-}
+
 
 .emailBar{
     padding-top:5%;
@@ -159,13 +157,15 @@ html,body{
 }
 .btn-xlarge {
     padding: 18px 28px;
-    font-size: 22px; //change this to your desired size
-line-height: normal;
+    font-size: 22px;
+    line-height: normal;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
     color:white;
 }
+
+.home-banner{ position: relative }
 
 body{
     background: white;
@@ -205,41 +205,44 @@ a:hover{
 }
 
 .track-box{
-    height: 250px;
-    background-color: #F0F0F0;
+    height: 400px;
     border-radius: 5px;
+    border: 6px solid;
 }
 
 .track-box-top{
-    height: 80%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 30px;
-}
-
-.track-box-bottom{
-    height: 20%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height: 12.5%;
     line-height: 50px;
+    color: white;
     font-size: 24px;
 }
 
-.robotics-track-color{
-    background-color: #DA4B2F;
+.track-box-middle{
+    height: 50%;
+    padding: 25px;
+    background-color: #FDFDFD;
 }
 
-.apcs-track-color{
-    background-color: #407AC9;
+.track-box-bottom{
+    height: 37.5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #F0F0F0;
 }
 
-.webdesign-track-color{
-    background-color: #E7D25F;
+.track-description{
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
 }
 
-#robotics-circle{}
-#apcs-circle{}
-#webdesign-circle{}
+.robotics-track-color{ background-color: #407AC9 }
+.apcs-track-color{ background-color: #E7D25F }
+.webdev-track-color{ background-color: #DA4B2F }
+
+.robotics-circle{ }
+.apcs-circle{ }
+.webdesign-circle{ }
 
 #slideshow {
     margin: 50px auto;
@@ -409,6 +412,7 @@ a:hover{
     font-size:22px;
     height:80px;
     width:0;
+    top: 35px;
 }
 
 .abt{
@@ -474,25 +478,13 @@ a:hover{
     text-decoration: none;
 }
 
-#instructor-tile{
-    background-color: rgb(97,99,97);
-}
+#instructor-tile{ background-color: rgb(211,198,149) }
 
-#register-tile{
-    background-color: rgb(135,179,204);
+#register-tile{ background-color: rgb(97,99,97) }
 
-    padding-top:2%;
-    color:white;
-}
+#blog-tile{ background-color: rgb(129,149,60) }
 
-#blog-tile{
-    background-color: rgb(129,149,60);
-}
-
-#event-tile{
-    background-color: rgb(211,198,149);
-}
-
+#event-tile{ background-color: rgb(135,179,204) }
 
 #intro{
     text-align:center;

@@ -47,6 +47,8 @@ $(document).ready(function() {
 
 		var circleName = '#'+name+'-circle';
 
+		alert(circleName);
+
 		// Obtain pixel sizes from DOM
 		var circleDimString = $(circleName).css('height');
 		var circleDim = parseInt(circleDimString.substring(0, circleDimString.length-2));
