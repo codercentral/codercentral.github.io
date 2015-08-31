@@ -632,9 +632,9 @@ a:hover{
 .apcs-track-color{ background-color: #E7D25F }
 .webdev-track-color{ background-color: #DA4B2F }
 
-#robotics-circle{ }
-#apcs-circle{ }
-#webdesign-circle{ }
+.robotics-circle{ }
+.apcs-circle{ }
+.webdesign-circle{ }
 
 #slideshow {
     margin: 50px auto;

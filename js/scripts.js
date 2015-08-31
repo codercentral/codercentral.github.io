@@ -6,9 +6,11 @@
 jQuery(document).ready(function(){
 
 //    htmlCourse();
-
     var winWidth= $(window).width();
     homeAnimation();
+    circle_animation('robotics');
+    circle_animation('apcs');
+    circle_animation('webdev');
     introduction();
     aboutPage();
 });
@@ -124,6 +126,36 @@ function homeAnimation(){
             $(this).parent().removeClass('shaded');
         });
     }
+}
+
+function circle_animation(name, scalarEnlarge, lh1, lh2, speed) {
+    // Default values for lh1, lh2 to vertically align text and speed
+    scalarEnlarge = typeof scalarEnlarge !== 'undefined' ? scalarEnlarge : 1.1;
+    lh1 = typeof lh1 !== 'undefined' ? a : 0.93;
+    lh2 = typeof lh2 !== 'undefined' ? a : 0.87;
+    speed = typeof speed != 'undefined' ? speed : 175;
+
+    var circleName = '.'+name+'-circle';
+    var circleDim = 140;
+
+    // Equation so that circle to enlarge in the center
+    var enlarge = (circleDim / 2) * (scalarEnlarge - 1);
+
+    //Multiple selectors to select specific track
+    var combinedBox = circleName + '.track-box';
+    var combinedCircle = circleName + '.track-circle';
+    var combinedMiddle = circleName + '.track-box-middle'
+
+    // mouseenter - circle gets bigger, mouseleave - returns to normal size
+    $(combinedBox).on('mouseenter mouseleave', function (ev) {
+        if(ev.type == 'mouseenter'){
+            $(combinedCircle).animate({'height': scalarEnlarge*circleDim+'px', 'width': scalarEnlarge*circleDim+'px'}, speed);
+            $(combinedMiddle).animate({'padding': 20+'px'}, speed);
+        } else {
+            $(combinedCircle).animate({'height': circleDim+'px', 'width': circleDim+'px'}, speed);
+            $(combinedMiddle).animate({'padding': 25+'px'}, speed);
+        }
+    });
 }
 
 function aboutPage(){
