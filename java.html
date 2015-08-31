@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Java</title>
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/style.css" type="text/css" rel="stylesheet"/>
-    <link rel = "shortcut icon" href = "../images/favicon.ico">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel = "shortcut icon" href = "images/favicon.ico">
+    <link href="css/general.css" type="text/css" rel="stylesheet"/>
+    <link href="css/courses.css" type="text/css" rel="stylesheet"/>
 </head>
 <body id="body">
 <script>
@@ -29,38 +31,47 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../homepage.html">Coder Central</a>
+            <a class="navbar-brand" href="homepage.html">Coder Central</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="../about.html">About Us<span class="sr-only">(current)</span></a></li>
+                <li><a href="about.html">About Us<span class="sr-only">(current)</span></a></li>
                 <li class="dropdown active">
-                    <a href="../courses.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                    <a href="courses.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li class="active"><a href="java.html">Java</a></li>
                         <li><a href="cpp.html">C++</a></li>
-                        <li><a href="unity.html">Unity</a></li>
+                        <li><a href="Courses/unity.html">Unity</a></li>
                     </ul>
                 </li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="https://danielhuang.typeform.com/to/AdJToE" target="_blank">Register</a></li>
-                <li><a href="../contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </div><!-- /.container-fluid -->
     </div>
 </nav>
 
-<div class="htmlDiv java">
-    <h1 class="htmlh1 java" style="margin-top:30px">Java() }</h1>
-    <h1 style="margin-left:150px; margin-top:20px" class="javaPreview">Preview to AP Computer Science</h1>
-    <p class="paragraph">Want to prepare for the AP Computer course, but don’t have any coding experience?
-        As a former AP Computer science student, Maitri will use actual AP Computer Science projects from
-        Amador Valley High School as well as real problems from the AP Computer Science test. It will engage
-        students to think beyond the AP curriculum to create their own projects and truly master the material. </p>
-    <br>
+<!---------------------------------------------------navbar stuff---------------------------------------------->
+
+<div class="header container-fluid" id="tracks">
+    <div class="container">
+        <div class="header-title">Java() }</div>
+        <div class="sub-header-title">
+            Preview to AP Computer Science
+        </div>
+        <div class="header-description col-md-8">
+            Want to prepare for the AP Computer course, but don’t have any coding experience?
+            As a former AP Computer science student, Maitri will use actual AP Computer Science projects from
+            Amador Valley High School as well as real problems from the AP Computer Science test. It will engage
+            students to think beyond the AP curriculum to create their own projects and truly master the material.
+        </div>
+    </div>
 </div>
+
+<!---------------------------------------------------navbar stuff---------------------------------------------->
 
 <div id="creamColor" class="paragraph">
     <div class="container" style="padding-top:1.5%;">
@@ -68,12 +79,12 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <h1 class="panel-heading heading">Maitri Shah</h1>
-                    <img class="panel-body"src="../images/maitri.JPG" style="max-width:100%; max-height:100%;  margin-top:-15px">
+                    <img class="panel-body"src="images/maitri.JPG" style="max-width:100%; max-height:100%;  margin-top:-15px">
                     <h4 style="text-align: center">"Karel the robot and I go wayyy back. You'll learn to love Karel too!"</h4>
                 </div>
 
                 <div class="panel panel-default hidden-sm hidden-xs">
-                    <img class="panel-body"src="pic1.JPG" style="max-height:100%;max-width:100%;">
+                    <img class="panel-body"src="Courses/pic1.JPG" style="max-height:100%;max-width:100%;">
                 </div>
                 <div class="panel panel-default">
                     <h1 class="panel-heading heading">Age Range</h1>
@@ -91,7 +102,7 @@
 
             <div class="col-md-4">
                 <div class="panel panel-default hidden-sm hidden-xs">
-                    <img class="panel-body"src="pic2.JPG" style="max-height:100%;max-width:100%">
+                    <img class="panel-body"src="Courses/pic2.JPG" style="max-height:100%;max-width:100%">
                 </div>
                 <div class="panel panel-default">
                     <h1 class="panel-heading heading">Topics</h1>
@@ -141,7 +152,7 @@
                 </div>
 
                 <div class="panel panel-default hidden-sm hidden-xs">
-                    <img class="panel-body"src="pic3.JPG" style="max-height:100%;max-width:100%">
+                    <img class="panel-body"src="Courses/pic3.JPG" style="max-height:100%;max-width:100%">
                 </div>
 
                 <div class="panel panel-default">
@@ -177,40 +188,41 @@
     </div>
 </div>
 
+<!--------------------------------------------------footer----------------------------------------------------->
 
 <div class="row footer" style="margin-top: 40px !important">
     <div class="col-md-3">
         <h1 class="footer-title">Coder Central</h1>
-        <a href="https://facebook.com/codecamp15" target="_blank"><img class='icon' src="../icons/fb.png"/></a>
-        <a href="https://codecamp15.wordpress.com/" target="_blank"><img class='icon' src="../icons/wp.png"/></a>
-        <a href="https://twitter.com/codecamp15" target="_blank"><img class='icon' src="../icons/tt.png"/></a>
-        <a href="https://instagram.com/codecamp15" target="_blank"><img class='icon' src="../icons/tu.png"/></a>
-        <a href="https://www.youtube.com/channel/UCHIpom9gNZHb4zS3-2iJGHg/featured" target="_blank"><img class='icon' src="../icons/yt.png"/></a>
+        <a href="https://facebook.com/codecamp15" target="_blank"><img class='icon' src="icons/fb.png"/></a>
+        <a href="https://codecamp15.wordpress.com/" target="_blank"><img class='icon' src="icons/wp.png"/></a>
+        <a href="https://twitter.com/codecamp15" target="_blank"><img class='icon' src="icons/tt.png"/></a>
+        <a href="https://instagram.com/codecamp15" target="_blank"><img class='icon' src="icons/tu.png"/></a>
+        <a href="https://www.youtube.com/channel/UCHIpom9gNZHb4zS3-2iJGHg/featured" target="_blank"><img class='icon' src="icons/yt.png"/></a>
         <p style="margin:5%"><span class="glyphicon glyphicon-copyright-mark"></span> 2015 Coder Central.  All Rights Reserved</p>
 
     </div>
     <div class="col-md-3">
         <h3>Coder Central</h3>
         <ul class="list-unstyled">
-            <li><a href="../about.html">About Us</a></li>
-            <li><a href="../courses.html">Register</a></li>
-            <li><a href="../courses.html">Courses</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Register</a></li>
+            <li><a href="courses.html">Courses</a></li>
             <li><a href="https://codercentral.wordpress.com">Blog</a></li>
         </ul>
     </div>
     <div class="col-md-3">
         <h3>Code Camp</h3>
         <ul class="list-unstyled">
-            <li><a href="../camp/apply.html#program-details-about">Overview</a></li>
-            <li><a href="../camp/apply.html#program-details-syllabus">Curriculum</a></li>
-            <li><a href="../camp/apply.html#program-details-application">Apply</a></li>
+            <li><a href="camp/apply.html#program-details-about">Overview</a></li>
+            <li><a href="camp/apply.html#program-details-syllabus">Curriculum</a></li>
+            <li><a href="camp/apply.html#program-details-application">Apply</a></li>
             <li><a href="https://codecamp15.wordpress.com">Blog</a></li>
         </ul>
     </div>
     <div class="col-md-3">
         <ul class="list-unstyled">
-            <li><a href="../about.html"><h2>About</h2></a></li>
-            <li><a href="../courses.html"><h2>Login</h2></a></li>
+            <li><a href="about.html"><h2>About</h2></a></li>
+            <li><a href="courses.html"><h2>Login</h2></a></li>
         </ul>
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -242,9 +254,9 @@
         <!--End mc_embed_signup-->
     </div>
 </div>
-<script type="text/javascript" src='../js/jquery-1.11.3.js'></script>
-<script type="text/javascript" src='../js/jquery-2.1.4.min.js'></script>
-<script type="text/javascript" src='../js/bootstrap.min.js'></script>
-<script type="text/javascript" src="../js/scripts.js"></script>
+<script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+<script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
