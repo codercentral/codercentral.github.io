@@ -17,59 +17,16 @@ html,body{
 
 /* Large desktop */
 @media (min-width: 1200px) {
-    .element, .outro{
-        font-size:50px;
-    }
-    #home{
-        padding-top:3.9%;
-    }
-    .paragraph{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 20px;
-        padding-left: 70px;
-        padding-right: 250px;
-    }
-    .htmlDiv{
-        margin:0px;
-        padding-left: 50px;
-        border:0px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .htmlh1{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 125px;
-        color: white;
-        margin-top: 0px;
-        padding-left: 65px;
+    .element, .outro{  font-size:50px;  }
+    #home{  padding-top:3.9%;  }
 
-    }
-    .javaPreview{
-        font-size:43px;
-        font-family:archiveregular;
-    }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 125px;
-        color: white;
-        margin-top: 0px;
-        padding-left: 65px;
-    }
-    #aboutInfo{
-        height:80px;
-    }
+
+    #aboutInfo{  height:80px;  }
 
     /* Contact us page */
-    .emailBar{
-        font-size:50px;
-    }
+    .emailBar{  font-size:50px;  }
 
-    .icon{
-        height:50px;
-        width:auto;
-    }
+    .icon{  height:50px;  width:auto;  }
 
     .contactHeading{
         height:300px;
@@ -78,77 +35,6 @@ html,body{
         font-size: 150px;
     }
 
-    .top-title{
-        font-family: archiveregular;
-        font-size: 150px;
-        padding-top: 4%;
-        padding-right: 10%;
-    }
-
-    .header{
-        color: white;
-        margin-top: 0;
-        padding-left: 5%;
-        padding-top: 1.75%;
-        padding-bottom: 4%;
-    }
-
-    .statement{
-        padding-right: 18%;
-        padding-left: 5%;
-        font-size: 20px;
-    }
-
-    #course-header{
-        color: white;
-        margin-top: 0;
-        background-color: #23C3CD;
-        padding-left: 5%;
-        padding-top: 1.75%;
-        padding-bottom: 4%;
-    }
-
-    #course-title{
-        font-family: archiveregular;
-        font-size: 150px;
-        padding-top: 4%;
-        padding-right: 10%;
-    }
-
-    #course-statement{
-        padding-right: 18%;
-        padding-left: 5%;
-        font-size: 20px;
-    }
-
-    #course-circle{
-        font-size: 26px;
-    }
-    #python-circle{
-        font-size: 30px;
-    }
-    #web-circle{
-        font-size: 30px;
-    }
-    #java-circle{
-        font-size: 30px;
-    }
-    #cpp-circle{
-        font-size: 32px;
-    }
-    #unity-circle{
-        font-size: 25px;
-    }
-    #graphics-circle{
-        font-size: 24px;
-    }
-    span {
-        vertical-align: middle;
-        line-height: normal;
-    }
-    #line1{
-        padding-top: 28%;
-    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -179,112 +65,17 @@ html,body{
         width:auto;
     }
 
-    .contactHeading{
-        height:300px;
-        padding-top: 10%;
-        padding-left: 8%;
-        font-size: 90px;
-    }
-    .paragraph{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 20px;
-        padding-left: 70px;
-        padding-right: 250px;
-    }
-    .htmlDiv{
-        margin:0px;
-        padding-left: 50px;
-        border:0px;
-        background-color:#F66337;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .htmlh1, .html1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 125px;
-        color: white;
-        margin-top: 0px;
-        padding-left: 65px;
-    }
-
-    #course-header{
-        color: white;
-        margin-top: 0;
-        background-color: #23C3CD;
-        padding-left: 5%;
-        padding-top: 1.5%;
-        padding-bottom: 3.5%;
-    }
-
-    #course-title{
-        font-family: archiveregular;
-        font-size: 100px;
-        padding-top: 5%;
-        padding-right: 10%;
-    }
-
-    #course-statement{
-        padding-right: 12%;
-        padding-left: 5%;
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    #course-circle{
-        font-size: 20px;
-    }
-    #python-circle{
-        font-size: 22px;
-    }
-    #web-circle{
-        font-size: 20px;
-    }
-    #java-circle{
-        font-size: 24px;
-    }
-    #cpp-circle{
-        font-size: 26px;
-    }
-    #unity-circle{
-        font-size: 19px;
-    }
-    #graphics-circle{
-        font-size: 18px;
-    }
-    span{
-        vertical-align: middle;
-        line-height: normal;
-    }
-    #line1{
-        padding-top: 27%;
-    }
-
 }
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 480px) and (max-width: 767px) {
-    .element, .outro{
-        font-size:30px;
-    }
-    #home{
-        padding-top:5%;
-    }
-    #welcome{
-        font-size:20px;
-    }
+    .element, .outro{  font-size:30px;  }
+    #home{  padding-top:5%;  }
+    #welcome{  font-size:20px;  }
 
-    #contact-tile{
-        font-size:20px;
-    }
-    .javaPreview{
-        font-size:30px;
-        font-family:archiveregular;
-        margin-left:100px !important;
-    }
-    #aboutInfo{
-        height:40px;
-    }
+    #contact-tile{  font-size:20px;  }
+
+    #aboutInfo{  height:40px;  }
 
     /* Contact us page */
     .emailBar{
@@ -297,137 +88,15 @@ html,body{
         height:50px;
         width:auto;
     }
-
-    .contactHeading{
-        height:300px;
-        padding-top: 10%;
-        padding-left: 7%;
-        font-size: 80px;
-    }
-    .paragraph{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 15px;
-        padding-left: 70px;
-        padding-right: 150px;
-    }
-    .htmlDiv{
-        margin:0px;
-        padding-left: 50px;
-        border:0px;
-        background-color:#F66337;
-        padding-top: 50px;
-        padding-bottom: 25px;
-    }
-    .htmlh1, .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 75px;
-        color: white;
-        margin-top: 0px;
-        padding-left: 65px;
-    }
-
-    #course-header{
-        color: white;
-        margin-top: 0;
-        background-color: #23C3CD;
-        padding-left: 5%;
-        padding-top: 1.5%;
-        padding-bottom: 3.5%;
-    }
-
-    #course-title{
-        font-family: archiveregular;
-        font-size: 50px;
-        padding-top: 9%;
-        padding-right: 10%;
-    }
-
-    #course-statement{
-        padding-right: 12%;
-        padding-left: 5%;
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    #course-circle{
-        font-size: 15px;
-    }
-    #python-circle{
-        font-size: 15px;
-    }
-    #web-circle{
-        font-size: 14px;
-    }
-    #java-circle{
-        font-size: 18px;
-    }
-    #cpp-circle{
-        font-size: 20px;
-    }
-    #unity-circle{
-        font-size: 12px;
-    }
-    #graphics-circle{
-        font-size: 12px;
-    }
-    span{
-        vertical-align: middle;
-        line-height: normal;
-    }
-    #line1{
-        padding-top: 23%;
-    }
 }
 
 /* Landscape phones and down */
 @media (max-width: 479px) {
-    .element, .outro{
-        font-size:20px;
-    }
-    #home{
-        padding-top:5%;
-    }
-    #welcome{
-        font-size:15px;
-    }
-    .javaPreview{
-        font-size:20px;
-        font-family:archiveregular;
-        margin-left:100px !important;
-    }
-    .htmlh1, .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 37px;
-        color: white;
-        margin-top: 0px;
-        padding-left: 65px;
-    }
-    .paragraph{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 12px;
-        padding-left: 70px;
-        padding-right: 100px;
-    }
-    .htmlDiv{
-        margin:0;
-        padding-left: 25px;
-        border:0;
-        background-color:#F66337;
-        padding-top: 50px;
-        padding-bottom: 25px;
-    }
-    .tile{
-        padding-top:30% !important;
-        padding-bottom:30% !important;
-    }
-    #contact-tile{
-        font-size:20px;
-    }
-    #aboutInfo{
-        height:40px;
-    }
+    .element, .outro{  font-size:20px;  }
+    #home{  padding-top:5%;  }
+    #welcome{  font-size:15px;  }
+
+    #aboutInfo{  height:40px;  }
 
     /* Contact us page */
     .emailBar{
@@ -445,59 +114,6 @@ html,body{
         padding-top: 10%;
         padding-left: 8%;
         font-size: 150px;
-    }
-
-    #course-header{
-        color: white;
-        margin-top: 0;
-        background-color: #23C3CD;
-        padding-left: 5%;
-        padding-top: 1.5%;
-        padding-bottom: 3.5%;
-    }
-
-    #course-title{
-        font-family: archiveregular;
-        font-size: 50px;
-        padding-top: 9%;
-        padding-right: 10%;
-    }
-
-    #course-statement{
-        padding-right: 12%;
-        padding-left: 5%;
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    #course-circle{
-        font-size: 11px;
-        display: block;
-    }
-    #python-circle{
-        font-size: 15px;
-    }
-    #web-circle{
-        font-size: 12px;
-    }
-    #java-circle{
-        font-size: 15px;
-    }
-    #cpp-circle{
-        font-size: 19px;
-    }
-    #unity-circle{
-        font-size: 12px;
-    }
-    #graphics-circle{
-        font-size: 11px;
-    }
-    span{
-        vertical-align: middle;
-        line-height: normal;
-    }
-    #line1{
-        padding-top: 18%;
     }
 
 }
@@ -953,56 +569,7 @@ a:hover{
     margin-top: 50px;
 }
 
-#circle-body{
-    padding-top: 50px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    background-color: #F8F8F8;
-    z-index: 0;
-}
 
-.circle{
-    color: white;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 10px;
-    z-index: 1;
-    position: absolute;
-}
-
-.center-span{
-    display: block;
-    vertical-align: middle;
-    line-height: normal;      
-}
-
-#course-circle, #python-circle, #web-circle, #java-circle, #cpp-circle,
-    #unity-circle, #graphics-circle{
-    font-family: archiveregular;
-}
-
-
-#course-circle{
-    background-color: #3B92CB;
-}
-#python-circle{
-    background-color: #2D63B7;
-}
-#web-circle{
-    background-color: #DD874F;
-}
-#java-circle{
-    background-color: #663A98;
-}
-#cpp-circle{
-    background-color: #92C2C0;
-}
-#unity-circle{
-    background-color: #ABC565;
-}
-#graphics-circle{
-    background-color: #C15562;
-}
 
 #courses-footer{
     margin-bottom: 0px;
@@ -1063,7 +630,7 @@ hr{
     border-radius: 10px 0px 0px 10px;
     color:black;
     margin-left:20px;
-      margin-right: 30px;
+    margin-right: 30px;
 }
 
 .contactHeading{
