@@ -10,6 +10,11 @@ jQuery(document).ready(function(){
             $('nav').html(response);
         }
     });
+    $.ajax('footer.html',{
+        success:function(response){
+            $('.footer').html(response);
+        }
+    });
 
     homeAnimation();
     circle_animation('robotics');
