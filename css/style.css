@@ -21,7 +21,7 @@ html,body{
         font-size:50px;
     }
     #home{
-        padding-top:3.9%;
+        padding-top:50px;
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -491,6 +491,8 @@ html,body{
     opacity:.8;
     color:black;
     border-radius:10px;
+    bottom: 35px;
+    right: 35px;
 }
 
 #home-welcome p{
@@ -522,6 +524,8 @@ html,body{
     border-radius: 8px;
     color:white;
 }
+
+.home-banner{ position: relative }
 
 .home-bg{
     display:none;
@@ -590,9 +594,9 @@ a:hover{
     background-color: #F0F0F0;
 }
 
-.robotics-track-color{ background-color: #DA4B2F }
-.apcs-track-color{ background-color: #407AC9 }
-.webdev-track-color{ background-color: #E7D25F }
+.robotics-track-color{ background-color: #407AC9 }
+.apcs-track-color{ background-color: #E7D25F }
+.webdev-track-color{ background-color: #DA4B2F }
 
 #robotics-circle{ }
 #apcs-circle{ }
@@ -766,6 +770,7 @@ a:hover{
     font-size:22px;
     height:80px;
     width:0;
+    top: 35px;
 }
 
 .abt{
@@ -815,24 +820,13 @@ a:hover{
     text-decoration: none;
 }
 
-#instructor-tile{
-    background-color: rgb(97,99,97);
-}
+#instructor-tile{ background-color: rgb(211,198,149) }
 
-#register-tile{
-    background-color: rgb(211,198,149);
-    padding-top:2%;
-    color:white;
-}
+#register-tile{ background-color: rgb(97,99,97) }
 
-#blog-tile{
-    background-color: rgb(129,149,60);
-}
+#blog-tile{ background-color: rgb(129,149,60) }
 
-#event-tile{
-    background-color: rgb(135,179,204);
-}
-
+#event-tile{ background-color: rgb(135,179,204) }
 
 #intro{
     text-align:center;
@@ -1026,7 +1020,7 @@ hr{
     border-radius: 10px 0px 0px 10px;
     color:black;
     margin-left:20px;
-      margin-right: 30px;
+    margin-right: 30px;
 }
 
 .contactHeading{

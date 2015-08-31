@@ -88,56 +88,42 @@ function homeAnimation(){
             .end()
             .appendTo('#slideshow');
     },  6000);
+
     var tiles=[$('#instructor-tile'),$('#event-tile'),$('#blog-tile'),$('#register-tile')];
 
+    // Set height of the tiles based on the width
     tiles[0].css({
-        height:$('#instructor-tile').width()*1.37+"px"
+        height:$('#instructor-tile').width()*0.398+"px"
     });
     tiles[1].css({
-        height:$('#event-tile').width() *.96+"px"
+        height:$('#event-tile').width()*.96+"px"
     });
     tiles[2].css({
-        height:($('#blog-tile').width() *.96)+"px"
+        height:$('#blog-tile').width()*.96+"px"
     });
     tiles[3].css({
-        height:$('#register-tile').width()*.4+"px"
+        height:$('#register-tile').width()*1.371+"px"
     });
 
+    
     var tile=$('.tiles');
 
-        if(winWidth>757){
-            //this makes text larger
-            tile.on("mouseenter",'.flip-text',function(){
-                $(this).animate({
-                    'font-size':'35px'
-                },100);
-                $(this).parent().addClass('shaded');
-            });
-            tile.on('mouseout','.flip-text',function(){
-                $(this).animate({
-                    'font-size':'30px'
-                },100);
-                $(this).parent().removeClass('shaded');
-            });
-            //this sets up the heights of the slider and introduction text
-            aboutH=winHeight*.15;
-            $('#aboutInfo').css({
-                'top': aboutH +'px'
-            });
-            $('#home-welcome').css({
-                'top':(winHeight *.40)+'px'
-            });
-        }else{
-            aboutH=winHeight*.25;
-            $('#aboutInfo').css({
-                'top': aboutH +'px'
-            });
-
-            aboutH=winHeight*.819;
-            $('home-banner').css({
-               'height':aboutH+'px'
-            });
-        }
+    // If on desktop, when mouse hovers over a tile, increase the font size and tile color
+    if(winWidth>757){
+        //this makes text larger
+        tile.on("mouseenter",'.flip-text',function(){
+            $(this).animate({
+                'font-size':'35px'
+            },100);
+            $(this).parent().addClass('shaded');
+        });
+        tile.on('mouseout','.flip-text',function(){
+            $(this).animate({
+                'font-size':'30px'
+            },100);
+            $(this).parent().removeClass('shaded');
+        });
+    }
 }
 function aboutPage(){
     var winHeight= $(window).height();
