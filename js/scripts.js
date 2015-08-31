@@ -137,7 +137,7 @@ function aboutPage(){
 
 function paths(){
     var tracks=[$('#blue-track'),$('#red-track'),$('#yellow-track')];
-
+    var grey=$('#grey');
     tracks[0].on('mouseenter',function(){
         $('#blue').fadeIn();
     });
