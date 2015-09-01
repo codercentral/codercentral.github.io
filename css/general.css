@@ -105,7 +105,7 @@ body{ overflow-x:hidden; }
     margin-bottom:7%;
 }
 
-#real-tracks{  position:relative; height:100%; }
+#real-tracks{  position:relative; height:120%; }
 
 .stations{
     position:absolute;
