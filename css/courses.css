@@ -1,9 +1,15 @@
 #cpp{ background-color: #92C2C0; }
 
-#java{ background-color: rgb(67,51, 128); }
+#java{ background-color: rgb(67,51, 128);}
 
-#python{ 
-    background-color: #3773A7; 
+#algorithms{ background-color: skyblue; color: #606060}
+
+#algorithms-title{ font-size: 6.3em;  margin-right: 0}
+
+#algorithms-description{ font-size: 1.25em}
+
+#python{
+    background-color: #3773A7;
     color: #FFD03F;
 }
 
@@ -54,3 +60,4 @@ b img{
 .info button{
     margin-left: 30%;
 }
+
