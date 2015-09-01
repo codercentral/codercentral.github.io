@@ -624,23 +624,17 @@ hr{
 }
 
 .courseHighlight{
-    background-color:rgba(156, 217, 234, 255);
-    border-radius: 10px 0px 0px 10px;
-    color:black;
-    margin-left:20px;
-    margin-right: 30px;
+   background-color:lightgrey;
+   height:200%;
+   width:61%;
+   position:absolute;
+    z-index:-2;
 }
 
-.contactHeading{
-    height:300px;
-    padding-top: 10%;
-    padding-left: 5%;
-    font-size: 80px;
-}
 .heading{
     text-align:center;
     margin-bottom: 5%;
-    margin-top:0px;
+    margin-top:0;
     font-family: archiveregular;
 }
 
