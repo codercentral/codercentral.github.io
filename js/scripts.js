@@ -21,13 +21,6 @@ jQuery(document).ready(function(){
             $('.footer').html(response);
         }
     });
-    if(width>787){
-        $.ajax('tracks.html',{
-            success:function(response){
-                $('#real-tracks').html(response);
-            }
-        });
-    }
 
 
 
