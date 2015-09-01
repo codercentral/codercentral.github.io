@@ -510,10 +510,6 @@ a:hover{
     background-color: white;
     padding-top:0px;
 }
-.python{
-    color:#FFD03F !important;
-    background-color: #3773A7 !important;
-}
 .html{
     background-color:#F66337 !important;
     color:white !important;
@@ -621,14 +617,6 @@ hr{
 }
 #htmlDiv{
     margin-top: -10px;
-}
-
-.courseHighlight{
-   background-color:lightgrey;
-   height:200%;
-   width:61%;
-   position:absolute;
-    z-index:-2;
 }
 
 .heading{

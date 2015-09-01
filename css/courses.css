@@ -1,9 +1,22 @@
-#cpp{  background-color: #92C2C0;  }
+#cpp{ background-color: #92C2C0; }
 
-#java{ background-color: rgb(67,51, 128)}
+#java{ background-color: rgb(67,51, 128); }
+
+#python{ 
+    background-color: #3773A7; 
+    color: #FFD03F;
+}
 
 b{
     font-family: archiveregular, sans-serif;
+}
+
+.courseHighlight{
+    background-color:lightgrey;
+    height:150%;
+    width:61%;
+    position:absolute;
+    z-index:-2;
 }
 
 .course-info{
