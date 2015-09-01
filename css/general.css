@@ -152,6 +152,16 @@ body{ overflow-x:hidden; }
 #robotics-title{background-color:#407AC9; }
 #webdesign-title{background-color:#DA4B2F; }
 
+#algorithms-btn{
+    position:relative;
+    top:128px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
 .left-stations{
     -webkit-transform: rotate(46deg);
     -moz-transform: rotate(46deg);
