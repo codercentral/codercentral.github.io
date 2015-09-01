@@ -4,6 +4,7 @@
 
 
 jQuery(document).ready(function(){
+    var width=$(window).width();
     homeAnimation();
     circle_animation('robotics');
     circle_animation('apcs');
@@ -20,6 +21,13 @@ jQuery(document).ready(function(){
             $('.footer').html(response);
         }
     });
+    if(width>787){
+        $.ajax('tracks.html',{
+            success:function(response){
+                $('#real-tracks').html(response);
+            }
+        });
+    }
 
 
 

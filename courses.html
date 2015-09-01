@@ -44,37 +44,9 @@
     <h5><i>Click on the course for more information</i></h5>
 </div>
 
-<div class="container" id="real-tracks">
-    <div class="row">
-        <div class=" station" style="position:absolute; top:20px;">
-            <img src="images/codercentral_path_blue%20.png" alt="paths" class="col-md-8 col-md-offset-2 layer-0" id="blue">
-            <img src="images/codercentral_path_red.png" alt="paths" class="col-md-8 col-md-offset-2 layer-0" id="red"/>
-            <img src="images/codercentral_path_yellow.png" alt="paths" class="col-md-8 col-md-offset-2 layer-0" id="yellow"/>
-        </div>
-        <div class="layer-2" style="margin-bottom:2%;">
-            <img src="images/paths_full.png" alt="paths" class="col-md-8 col-md-offset-2 station"/>
-        </div>
-        <div class="layer-3">
-            <div class="row" style="position:relative;left:-50px;">
-                <div class="highlight-track col-md-1 col-md-offset-4 layer-3" id="blue-track"></div>
-                <div class="highlight-track col-md-1 col-md-offset-1 layer-3" id="yellow-track"></div>
-                <div class="highlight-track col-md-1 layer-3" style="position:relative; left:70px" id="red-track"></div>
-            </div>
-            <div class="row">
-                <a href="python.html"><div class="bg-station col-md-3 col-md-offset-1 layer-3 left-stations"></div></a>
-                <a href="cpp.html"><div class="bg-station col-md-2 layer-3" ></div></a>
-                <a href="java.html"><div class="bg-station col-md-2 layer-3"></div></a>
-                <a href="webdesign.html"><div class="bg-station col-md-2 layer-3 right-stations"></div></a>
-            </div>
-            <div class="row">
-                <a href="algorithms.html"><div class="bg-station col-md-2 col-md-offset-5 layer-3" id="algorithms-btn" ></div></a>
-            </div>
-        </div>
+<div class="container hidden-xs" id="real-tracks"></div>
 
-    </div>
-</div>
-
-<div class="container">
+<div class="container hidden-xs">
     <div class="tracks row col-md-12">
         <div class="col-md-4">
             <div class="all-tracks" id="robotics">
@@ -112,11 +84,118 @@
         </div>
     </div>
 </div>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Robotics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tr>
+                        Can you hear the sounds of motors? They're coming from robots
+                            made by other Coder Central commuters! On this track, you can jump on the
+                            either the C++ or Python train. The Python train will take you to the Town of Raspberry
+                            Pi, a fun way to get introduced to our robot friends. The C++ train will
+                            wisk you away to the grand City of Arduino to see Arduinites!
+                    </tr>
+                    <tr>
+                        <td>Introduction to Python</td>
+                        <td>Introduction to C++</td>
+                    </tr>
+                    <tr>
+                        <td>Raspberry Pi I</td>
+                        <td>Computing with Algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>Raspberry Pi II</td>
+                        <td>Robotics with Arduino</td>
+                    </tr>
+                </table>
+               </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    AP Computer Science
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tr>This is the perfect track for the high school commuter who are about to board onto the Java train.
+                        It stops by important stations such as Computing with Algorithms which is essential for students to do
+                        well on the AP Computer Science course. Furthermore, students can stop by the
+                        Bootcamp station to get a great review right before the AP Computer Science test.</tr>
+                    <tr>
+                        <td>Introduction to Java</td>
+                    </tr>
+                    <tr>
+                        <td>Computing with Algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>AP Bootcamp</td>
+                    </tr>
+                </table>
+              </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Web Design
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <tr>
+                        For this track, you will be traveling in a three car train: HTML, CSS, and Javascript. While on
+                        this track, the conductor will give you opportunities to build websites for small businesses around the
+                        community - a great way to beef up your resume. By the time you reach the final station, you will find
+                        yourself as one of the 1% of Americans who know how to build websites!
+                    </tr>
+                    <tr>
+                        <td>
+                            Introduction to Web Design
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Graphics Design
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Web Development with Javascript
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Back-end Web Development
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="line"></div>
 </div>
 <div class="row">
-    <img src="images/codercentralbanner_coloredit.png" alt="logo" class="col-md-8 col-md-offset-2 hidden-xs">
+    <img src="images/codercentralbanner_coloredit.png" alt="logo" class="col-md-8 col-md-offset-2 col-xs-12">
 </div>
 
 <!--------------------------------------------------footer----------------------------------------------------->
