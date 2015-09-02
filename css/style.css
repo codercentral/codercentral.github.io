@@ -34,6 +34,8 @@ html,body{
         font-size: 150px;
     }
 
+    .track-description{  font-size: 20px;  }
+
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -61,6 +63,8 @@ html,body{
         width:auto;
     }
 
+    .track-description{  font-size: 18px;  }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -83,6 +87,8 @@ html,body{
         height:50px;
         width:auto;
     }
+
+    .track-description{  font-size: 26px;  }
 }
 
 /* Landscape phones and down */
@@ -109,6 +115,8 @@ html,body{
         padding-left: 8%;
         font-size: 150px;
     }
+
+    .track-description{  font-size: 20px;  }
 
 }
 
@@ -224,7 +232,6 @@ a:hover{
 }
 
 .track-description{
-    font-size: 20px;
     padding: 12px;
     text-align: center;
 }
@@ -422,7 +429,7 @@ a:hover{
     text-align:center;
 }
 
-.line{
+.row > .line{
     height:3px;
     background-color:lightgrey;
     width:75%;
