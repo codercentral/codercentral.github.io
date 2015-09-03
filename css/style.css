@@ -236,13 +236,23 @@ a:hover{
     text-align: center;
 }
 
-.robotics-track-color{ background-color: #407AC9 }
-.apcs-track-color{ background-color: #E7D25F }
-.webdev-track-color{ background-color: #DA4B2F }
+.robotics-track-color{  background-color: #407AC9  }
+.apcs-track-color{  background-color: #E7D25F  }
+.webdev-track-color{  background-color: #DA4B2F  }
 
-.robotics-circle{ }
-.apcs-circle{ }
-.webdesign-circle{ }
+.robotics-circle, .apcs-circle, .webdesign-circle{ }
+
+.track-circle.robotics-circle{  background: url(../images/roboticstrackicon.png)  }
+.track-circle.apcs-circle{  background: url(../images/apcstrackicon.png)  }
+.track-circle.webdev-circle{  background: url(../images/webdevtrackicon.png)  }
+
+.track-circle.robotics-circle, .track-circle.apcs-circle, .track-circle.webdev-circle{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #slideshow {
     margin: 50px auto;
@@ -458,12 +468,12 @@ a:hover{
 
 .lg-text{
     padding-top:60%;
-    padding-bottom:50%;
+    padding-bottom:70%;
 }
 
 .sm-text{
     padding-top:40%;
-    padding-bottom:30%;
+    padding-bottom:40%;
 }
  a{
    text-decoration: none;
