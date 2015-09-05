@@ -4,6 +4,7 @@
 
 
 jQuery(document).ready(function(){
+    var width=$(window).width();
     homeAnimation();
     circle_animation('robotics');
     circle_animation('apcs');
