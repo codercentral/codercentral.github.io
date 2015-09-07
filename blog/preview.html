@@ -1,0 +1,17 @@
+<div ng-repeat="post in preview.posts">
+    <div class="row"><h1 class="blog-title">{{post.title}}</h1></div>
+    <div class="row">
+        <h4 class="blog-info col-md-3">
+            <b>Posted by:{{post.author}}</b>
+            <br/>{{post.date}}
+        </h4>
+        <img src="../images/hscollege.PNG" alt="stuff" class="col-md-3">
+        <p class="blog-desciption col-md-6">
+            {{post.description}}
+        </p>
+    </div>
+    <div class="row">
+        <a class="btn btn-default pull-right">Read More</a>
+    </div>
+    <div class="line row"></div>
+</div>
