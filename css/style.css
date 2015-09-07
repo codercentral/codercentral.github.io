@@ -34,6 +34,8 @@ html,body{
         font-size: 150px;
     }
 
+    .track-description{  font-size: 20px;  }
+
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -61,6 +63,8 @@ html,body{
         width:auto;
     }
 
+    .track-description{  font-size: 18px;  }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -83,6 +87,8 @@ html,body{
         height:50px;
         width:auto;
     }
+
+    .track-description{  font-size: 26px;  }
 }
 
 /* Landscape phones and down */
@@ -109,6 +115,8 @@ html,body{
         padding-left: 8%;
         font-size: 150px;
     }
+
+    .track-description{  font-size: 20px;  }
 
 }
 
@@ -224,18 +232,27 @@ a:hover{
 }
 
 .track-description{
-    font-size: 20px;
     padding: 12px;
     text-align: center;
 }
 
-.robotics-track-color{ background-color: #407AC9 }
-.apcs-track-color{ background-color: #E7D25F }
-.webdev-track-color{ background-color: #DA4B2F }
+.robotics-track-color{  background-color: #407AC9  }
+.apcs-track-color{  background-color: #E7D25F  }
+.webdev-track-color{  background-color: #DA4B2F  }
 
-.robotics-circle{ }
-.apcs-circle{ }
-.webdesign-circle{ }
+.robotics-circle, .apcs-circle, .webdesign-circle{ }
+
+.track-circle.robotics-circle{  background: url(../images/roboticstrackicon.png)  }
+.track-circle.apcs-circle{  background: url(../images/apcstrackicon.png)  }
+.track-circle.webdev-circle{  background: url(../images/webdevtrackicon.png)  }
+
+.track-circle.robotics-circle, .track-circle.apcs-circle, .track-circle.webdev-circle{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #slideshow {
     margin: 50px auto;
@@ -422,7 +439,7 @@ a:hover{
     text-align:center;
 }
 
-.line{
+.row > .line{
     height:3px;
     background-color:lightgrey;
     width:75%;
@@ -451,12 +468,12 @@ a:hover{
 
 .lg-text{
     padding-top:60%;
-    padding-bottom:50%;
+    padding-bottom:70%;
 }
 
 .sm-text{
     padding-top:40%;
-    padding-bottom:30%;
+    padding-bottom:40%;
 }
  a{
    text-decoration: none;
