@@ -496,10 +496,7 @@ a:hover{
 
 #event-tile{ background-color: rgb(135,179,204) }
 
-#intro{
-    text-align:center;
-    position:relative;
-}
+#intro{  text-align:center;  position:relative;  }
 
 .element, .outro{
     position:relative;
@@ -511,6 +508,17 @@ a:hover{
 .thumbnail{
     width:250px;
     height:auto;
+}
+
+.teacher-panel{
+    background-color:lightgrey;
+    border-radius:10px;
+    border:2px solid lightgrey;
+}
+.teacher-panel a{color:black; text-decoration:none;}
+
+.teacher-panel p{
+    text-align:justify;
 }
 
 .java{

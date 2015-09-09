@@ -21,9 +21,6 @@ jQuery(document).ready(function(){
             $('.footer').html(response);
         }
     });
-
-
-
 });
 
 function htmlCourse(){
@@ -158,3 +155,88 @@ function paths(){
         $('#yellow').fadeOut();
     });
 }
+
+var homeApp=angular.module("teachers",[]);
+    homeApp.directive("teachersPanel",function(){
+        return{
+            restrict:'E',
+            templateUrl:'homepage-teachers.html',
+            controller:function(){
+                this.tab=1;
+                this.selectTab=function(setTab){
+                    this.tab=setTab;
+                };
+                this.isSelected=function(checkTab){
+                    return this.tab===checkTab;
+                };
+                this.teachers=teacherBios;
+            },
+            controllerAs:'panel'
+        };
+    });
+
+var teacherBios=[
+    {
+        name:'Daniel',
+        bio:"Hi there! Just a bit about myself, I'm currently a student at UCLA majoring in"+
+        " Business Economics with a specialization in Computing as well as a freelance"+
+        " web designer (I made this homepage!). I've been a coder since I started high school"+
+        "and I've always believed that coding should be a skill taught more widely in schools.",
+        bio2:" In high school I co-founded ACE Coding- a club that taught middle school students"+
+        " to code. I helped it grow from 4 students to over 500 students, as well as"+
+        " hosting a Code Day with Microsoft that had over 300 people from around the Bay Area come!"+
+        "In my free time I love to teach, watch movies, and play sports. So teaching really"+
+        "doesn't feel like a job to me!",
+        image:'images/dhprofessional.jpg'
+    },
+    {
+        name:'Siddhartha',
+        bio:"Hi! Sidd here. I'm currently an undergraduate majoring in Computer Science at UC Irvine."+
+        "I'm passionate about learning technology and teaching what I've learned to spark people's interest."+
+        "In my senior year, I teamed up with Daniel to build and teach at ACE Coding."+
+        "Soon afterwards, I became the first Branch Director of the Pleasanton Library.",
+        bio2:"I also taught a C++ workshop in conjunction with Microsoft at ACE Code Day."+
+        " In high school, I was a member of the Robotics Club's software division and also"+
+        " tutored students at Summit Tutoring Center."+
+        " In my free time, I enjoy b-boying, riding my bike, and watching anime.",
+        image:'images/sidd.JPG'
+    },
+    {
+        name:'Jerry',
+        bio:"Hi! Sidd here. I’m currently an undergraduate majoring in Computer Science at UC Irvine."+
+        "I’m passionate about learning technology and teaching what I’ve learned to spark people’s interest."+
+        "In my senior year, I teamed up with Daniel to build and teach at ACE Coding."+
+        "Soon afterwards, I became the first Branch Director of the Pleasanton Library."+
+        "I also taught a C++ workshop in conjunction with Microsoft at ACE Code Day."+
+        "In high school, I was a member of the Robotics Club’s software division and also"+
+        "tutored students at Summit Tutoring Center."+
+        "In my free time, I enjoy b-boying, riding my bike, and watching anime.",
+        image:'images/jerry.jpg'
+    }
+];
+
+var app = angular.module("store",[]);
+
+    app.controller('panelController',function(){
+        this.tab=1;
+        this.selectTab=function(setTab){
+            this.tab=setTab;
+        };
+        this.isSelected=function(checkTab){
+          return this.tab===checkTab;
+        };
+    });
+
+    app.controller('productController',function(){
+        this.products=allProducts;
+    });
+
+var allProducts=[
+    {
+        track:'AP Computer Science',
+        description:"Develop a solid understanding of the material for the class and AP Exam through projects and real" +
+        " AP multiple-choice problems.",
+        courses:"Preparing for AP Computer Science, Algorithms, Bootcamp",
+        testimonial:"Maitri was extremely helpful in preparing me for the AP Computer Science test."
+    }
+];

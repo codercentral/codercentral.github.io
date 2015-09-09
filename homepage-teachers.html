@@ -1,0 +1,38 @@
+
+<section class="teacher-panel">
+    <ul class="nav nav-tabs">
+        <li role="presentation" ng-class="{active|panel.isSelected(1)}"><a href ng-click="panel.selectTab(1)">Daniel</a></li>
+        <li role="presentation" ng-class="{active|panel.isSelected(2)}"><a href ng-click="panel.selectTab(2)">Siddhartha</a></li>
+        <li role="presentation" ng-class="{active|panel.isSelected(3}"><a href ng-click="panel.selectTab(3)">Jerry</a></li>
+    </ul>
+    <div class="panel" ng-show="panel.isSelected(1)">
+        <h4 class="text-center">Daniel</h4>
+        <div class="row">
+            <img ng-src="{{panel.teachers[0].image}}" class="col-md-6">
+            <p class="col-md-6">{{panel.teachers[0].bio}}</p>
+        </div>
+        <div class="row">
+            <p class="col-md-12">{{panel.teachers[0].bio2}}</p>
+        </div>
+        <div style="margin:0 5% 10% 0;"><a class="btn btn-primary pull-right" href="about.html">Learn More</a></div>
+    </div>
+    <div class="panel" ng-show="panel.isSelected(2)">
+        <h4 class="text-center">Siddhartha</h4>
+        <div class="row">
+            <img ng-src="{{panel.teachers[1].image}}"  class="col-md-6">
+            <p class="col-md-6">{{panel.teachers[1].bio}}</p>
+        </div>
+        <div class="row">
+            <p class="col-md-12">{{panel.teachers[1].bio2}}</p>
+        </div>
+        <div style="margin:0 5% 10% 0;"><a class="btn btn-primary pull-right" href="about.html">Learn More</a></div>
+    </div>
+    <div class="panel" ng-show="panel.isSelected(3)">
+        <h4 class="text-center">Jerry</h4>
+        <div class="row">
+            <img ng-src="{{panel.teachers[2].image}}" class="col-md-6"/>
+            <p class="col-md-6">{{panel.teachers[2].bio}}</p>
+        </div>
+        <div style="margin:0 5% 10% 0;"><a class="btn btn-primary pull-right" href="about.html">Learn More</a></div>
+    </div>
+</section>

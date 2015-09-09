@@ -6,16 +6,47 @@
     <title>Coder Central</title>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/general.css" type="text/css" rel="stylesheet"/>
     <link rel = "shortcut icon" href = "images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js"></script>
 </head>
-<body>
-
-    <div class="thumbnail custom">
-
+<body ng-app="store">
+    <nav></nav>
+    <div class="header container-fluid" style="background-color:lightsalmon">
+        <div class="container">
+            <div class="header-title">Register }</div>
+        </div>
     </div>
 
+    <div class="container">
+        <div class="thumbnail course-thumbnail" ng-controller="productController as product">
+            <img src="images/apcstrackicon.png" class="img-thumbnail">
+            <section ng-controller="panelController as panel">
+                <ul class="nav nav-pills">
+                    <li ng-class="{active|panel.isSelected(1)}"><a href ng-click="panel.selectTab(1)">Description</a></li>
+                    <li ng-class="{active|panel.isSelected(2)}"><a href ng-click="panel.selectTab(2)">Courses</a></li>
+                    <li ng-class="{active|panel.isSelected(3}"><a href ng-click="panel.selectTab(3)">Testimonials</a></li>
+                </ul>
+                <div class="panel" ng-show="panel.isSelected(1)">
+                    <h4>Description</h4>
+                    <p>{{product.products[0].description}}</p>
+                </div>
+                <div class="panel" ng-show="panel.isSelected(2)">
+                    <h4>Courses</h4>
+                    <p>{{product.products[0].courses}}</p>
+                </div>
+                <div class="panel" ng-show="panel.isSelected(3)">
+                    <h4>Description</h4>
+                    <p>{{product.products[0].testimonial}}</p>
+                </div>
+                <a class="btn btn-primary">Add to Cart</a>
+            </section>
+        </div>
+    </div>
+
+    <div class="footer container-fluid"></div>
 <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
 <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
-
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
