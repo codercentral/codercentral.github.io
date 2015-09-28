@@ -145,20 +145,13 @@ td{padding:2%;}
 }
 .highlight-track{ height:80px; }
 .bg-station{ height:70px; margin-top:1%; cursor:pointer; }
-.all-tracks{  border-radius:10px; padding:0!important; margin:3% 0 3% 0; }
+.all-tracks{  border-radius:10px; padding:0!important; margin:3% 0 3% 0; font-size: 20px;  }
 
 #robotics{  border: 6px solid #407AC9;  }
 #webdesign{ border: 6px solid #DA4B2F; }
 #apcs{ border: 6px solid #E7D25F; }
 
-#apcs-title, #webdesign-title, #robotics-title{
-    font-family:archiveregular;
-    padding-left:3%;
-    padding-right:3%;
-    font-weight:bold;
-    font-size:20px;
-    color:white;
-}
+.track-content > p { text-align: center; }
 
 .track-content{
     padding:5%;
@@ -166,10 +159,6 @@ td{padding:2%;}
     background-color:#F5F5F5;
     line-height:200%;
 }
-
-#apcs-title{ background-color:#E7D25F; }
-#robotics-title{background-color:#407AC9; }
-#webdesign-title{background-color:#DA4B2F; }
 
 #algorithms-btn{
     position:relative;
