@@ -6,6 +6,7 @@
 jQuery(document).ready(function(){
     var width=$(window).width();
     homeAnimation();
+    $('.carousel').carousel();
     circle_animation('robotics');
     circle_animation('apcs');
     circle_animation('webdev');
@@ -71,7 +72,9 @@ function homeAnimation(){
     tiles[3].css({
         height:$('#register-tile').width()*1.371+"px"
     });
-
+    $('#about-tile').css({
+        height:$('#about-tile').width()*.598+"px"
+    });
     
     var tile=$('.tiles');
 
