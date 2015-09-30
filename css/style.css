@@ -422,9 +422,8 @@ a:hover{  text-decoration: none;  }
 #aboutInfo{
     position: absolute;
     padding:1%;
-    background-color: white;
+    background-color: rgba(254,254,254,.8);
     z-index: 2;
-    opacity: .6;
     font-size:22px;
     height:80px;
     width:0;

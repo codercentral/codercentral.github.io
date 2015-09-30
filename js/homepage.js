@@ -3,23 +3,15 @@
  */
 jQuery(document).ready(function(){
     var intro=$('#intro-text');
-    var nextSlide=false;
+    var slideNum=1;
     var slideshow=$('.carousel');
     $('.intro').fadeIn();
     intro.css({display:'inline'});
     slideshow.carousel('pause');
     setTimeout(function(){
         intro.typed({
-            strings: ["Hi, I'm Daniel, founder and instructor at Coder Central!",
-                " My team and I want to help you discover how you can solve " +
-                "real world problems through coding!",
-                " We provide small group environments, cool video walkthroughs, and collaborative challenges" +
-                " to help you learn through your own curiosity!", "Go to our Register page to schedule a free 15 minute online consultation" +
-                " with our team of instructors.", "If you want a sample of our classes, check out our upcoming events for free workshops" +
-                "hackathons, and more!.",
-                "We're excited to meet you!"],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-            stringsElement: null,
+            stringsElement: $('.typed-text'),
             // typing speed
             typeSpeed: 10,
             // time before typing starts
@@ -37,9 +29,31 @@ jQuery(document).ready(function(){
             onStringTyped: function() {
                 setTimeout(function(){
                     slideshow.carousel('next');
-                },5000);
+                },slideDelay(slideNum));
+                slideNum++;
+                if(slideNum>5){
+                    slideNum=1;
+                }
             }
         });
     },3100);
+
+    function slideDelay(currSlide){
+        if(currSlide==1){
+            return 3000;
+        }
+        if(currSlide==2){
+            return 4500;
+        }
+        if(currSlide==3){
+            return 5300;
+        }
+        if(currSlide==4){
+            return 5000;
+        }
+        if(currSlide==5){
+            return 2000;
+        }
+    }
 
 });
