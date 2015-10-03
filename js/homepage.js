@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
                     slideshow.carousel('next');
                 },slideDelay(slideNum));
                 slideNum++;
-                if(slideNum>5){
+                if(slideNum>4){
                     slideNum=1;
                 }
             }
@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
 
     function slideDelay(currSlide){
         if(currSlide==1){
-            return 3000;
+            return 6500;
         }
         if(currSlide==2){
             return 4500;
@@ -49,9 +49,6 @@ jQuery(document).ready(function(){
             return 5300;
         }
         if(currSlide==4){
-            return 5000;
-        }
-        if(currSlide==5){
             return 2000;
         }
     }
