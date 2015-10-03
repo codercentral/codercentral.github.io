@@ -760,3 +760,12 @@ hr{
     float: right;
     width: 50%;
 }
+
+.service-box img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#what-included h2, #what-included h3{
+    font-family: archiveregular, sans-serif;
+}
