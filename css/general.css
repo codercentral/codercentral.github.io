@@ -78,7 +78,7 @@ and (min-width : 1824px) {
 
 body{ overflow-x:hidden; }
 
-.sub-header-title,.header-title{font-family: archiveregular;  }
+.sub-header-title,.header-title{font-family: archiveregular, sans-serif;  }
 
 .header{
     color: white;
@@ -150,8 +150,13 @@ td{padding:2%;}
 #robotics{  border: 6px solid #407AC9;  }
 #webdesign{ border: 6px solid #DA4B2F; }
 #apcs{ border: 6px solid #E7D25F; }
+#included{background-color: blueviolet}
 
 .track-content > p { text-align: center; }
+
+#included-title{
+    font-size: 100px;
+}
 
 .track-content{
     padding:5%;
@@ -190,3 +195,5 @@ td{padding:2%;}
     position:relative;
     top:-50px;
 }
+
+
