@@ -635,6 +635,13 @@ hr{
     margin-top: -10px;
 }
 
+.book-here{
+    position:absolute;
+    z-index:5;
+    top:65%;
+    left:10%;
+}
+
 .heading{
     text-align:center;
     margin-bottom: 5%;

@@ -1,6 +1,23 @@
 /**
  * Created by Daniel on 9/6/2015.
  */
+jQuery(document).ready(function(){
+
+    $.ajax('../blog-nav.html',{
+        success:function(response){
+            $('.blog-nav').html(response);
+        }
+    });
+    $.ajax('../blog-footer.html',{
+        success:function(response){
+            $('.footer').html(response);
+        }
+    });
+
+
+
+});
+
 var app=angular.module("blog", []);
     app.directive("previewer",function(){
         return{
@@ -18,11 +35,13 @@ var library=[
     {
         title:'How to turn your gamer into a programmer',
         author:'Daniel Huang',
-        date:'September 6, 2015',
+        date:'October 4, 2015',
+        image:'',
         description:"Games are everywhere. They're in our pockets, laptops, game consoles, and more."+
             "Most of you must be extremely worried for your child. Look at other kids, they're studying for college "+
             "and your child is playing games all day." + "Well fortunately, it's not too difficult to convert your gamer"+
-            "into a programmer- all it takes is a bit of inspiration."
+            "into a programmer- all it takes is a bit of inspiration.",
+        link:'blogs/5-activities-to-turn-gamer-into-coder.html'
     },
     {
         title:'5 Reasons Why You Should Learn Python',

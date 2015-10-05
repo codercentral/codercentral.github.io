@@ -62,7 +62,7 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
     /* Styles */
-    .header-title{  font-size: 125px; margin-top: 5%; }
+    .header-title{  font-size: 115px; margin-top: 5%; }
     .sub-header-title{  font-size: 33px; }
     .header-description{ font-size:20px; }
 }
@@ -195,5 +195,10 @@ td{padding:2%;}
     position:relative;
     top:-50px;
 }
+
+/*Blog CSS*/
+.blog-intro a{color:blue;}
+.blog-body p{line-height:175%; margin-bottom:5%;}
+.blog-body a{color:blue;}
 
 
