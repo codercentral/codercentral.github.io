@@ -2,13 +2,25 @@
  * Created by Daniel on 9/6/2015.
  */
 jQuery(document).ready(function(){
-
+    $('#myAffixed').affix({
+        offset: {
+            top: 300,
+            bottom: function () {
+                return (this.bottom = $('.footer').outerHeight(true))
+            }
+        }
+    });
+    $.ajax('../blog-side-bar.html',{
+        success:function(response){
+            $('#myAffixed').html(response);
+        }
+    });
     $.ajax('../blog-nav.html',{
         success:function(response){
             $('.blog-nav').html(response);
         }
     });
-    $.ajax('../blog-footer.html',{
+    $.ajax('../footer.html',{
         success:function(response){
             $('.footer').html(response);
         }
@@ -33,14 +45,14 @@ var app=angular.module("blog", []);
 
 var library=[
     {
-        title:'How to turn your gamer into a programmer',
+        title:'5 activities to turn a gamer into a coder',
         author:'Daniel Huang',
         date:'October 4, 2015',
-        image:'',
+        image:'images/gamerandparents.jpeg',
         description:"Games are everywhere. They're in our pockets, laptops, game consoles, and more."+
             "Most of you must be extremely worried for your child. Look at other kids, they're studying for college "+
-            "and your child is playing games all day." + "Well fortunately, it's not too difficult to convert your gamer"+
-            "into a programmer- all it takes is a bit of inspiration.",
+            " and your child is playing games all day." + "Well fortunately, it's not too difficult to convert your gamer"+
+            " into a programmer - all it takes is a bit of inspiration.",
         link:'blogs/5-activities-to-turn-gamer-into-coder.html'
     },
     {
