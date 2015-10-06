@@ -24,13 +24,11 @@
         </div>
     </div>
     <div class="container" >
-        <div class="col-md-9">
+        <div class="col-md-12">
             <previewer></previewer>
         </div>
-        <div class="col-md-3">
-            <div id="myAffix"></div>
-        </div>
     </div>
+<div class="line row"></div>
 <div class="footer"></div>
 
 
@@ -40,5 +38,13 @@
     <script type="text/javascript" src="js/blog.js"></script>
     <script type="text/javascript" src='js/bootstrap.min.js'></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+<script>
+    jQuery(document).ready(function(){
+        setTimeout(function(){
+            $('#blog').addClass('active');
+        },500);
+    });
+
+</script>
 </body>
 </html>

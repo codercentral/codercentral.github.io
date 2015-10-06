@@ -20,7 +20,7 @@ jQuery(document).ready(function(){
             $('.blog-nav').html(response);
         }
     });
-    $.ajax('../footer.html',{
+    $.ajax('../blog-footer.html',{
         success:function(response){
             $('.footer').html(response);
         }
@@ -56,10 +56,12 @@ var library=[
         link:'blogs/5-activities-to-turn-gamer-into-coder.html'
     },
     {
-        title:'5 Reasons Why You Should Learn Python',
-        author:'Sidd Desai',
-        date:'September 7, 2015',
-        description:"Python is cool. Python is easy to learn. Python was named after Monthy Python. Python is a popular scripting" +
-        "language. What other reasons do you need? Learn it. Learn it NOWWWWW!"
+        title:'What Coding Language You Should Learn?',
+        author:'Jerry Li',
+        date:'October, 2015',
+        image:'images/prog-languages.png',
+        description:"With so many coding languages out there, what should you learn? Find out next week in this upcoming" +
+        " blog!",
+        link:'blogs/what-coding-lang-to-learn.html'
     }
     ];

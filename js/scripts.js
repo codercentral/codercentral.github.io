@@ -25,6 +25,7 @@ jQuery(document).ready(function(){
 
 
 
+
 });
 
 function htmlCourse(){
