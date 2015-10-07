@@ -22,10 +22,6 @@ jQuery(document).ready(function(){
             $('.footer').html(response);
         }
     });
-
-
-
-
 });
 
 function htmlCourse(){
@@ -71,7 +67,7 @@ function homeAnimation(){
         height:$('#blog-tile').width()*.96+"px"
     });
     tiles[3].css({
-        height:$('#register-tile').width()*1.371+"px"
+        height:$('#register-tile').width()*1.374+"px"
     });
     $('#about-tile').css({
         height:$('#about-tile').width()*.598+"px"

@@ -5,9 +5,7 @@ jQuery(document).ready(function(){
     $('#myAffixed').affix({
         offset: {
             top: 300,
-            bottom: function () {
-                return (this.bottom = $('.footer').outerHeight(true))
-            }
+            bottom: 500
         }
     });
     $.ajax('../blog-side-bar.html',{

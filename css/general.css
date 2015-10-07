@@ -204,7 +204,7 @@ td{padding:2%;}
 /*Blog CSS*/
 #myAffixed{padding:6%;}
 #myAffixed.affix{position:fixed !important; top:70px; width:19%; padding:1%;}
-.line{background-color:lightgrey;height:2px; margin-bottom:5%; margin-top:5%;}
+.liner{background-color:lightgrey;height:2px; margin-bottom:10%; margin-top:10%;}
 .blog-intro a{color:blue;}
 .blog-body p{line-height:175%; margin-bottom:5%;}
 .blog-body a{color:blue;}
