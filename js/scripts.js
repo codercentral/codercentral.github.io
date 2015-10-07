@@ -58,16 +58,16 @@ function homeAnimation(){
 
     // Set height of the tiles based on the width
     tiles[0].css({
-        height:$('#instructor-tile').width()*0.398+"px"
+        height:$('#instructor-tile').width()*0.27+"px"
     });
     tiles[1].css({
-        height:$('#event-tile').width()*.96+"px"
+        height:$('#event-tile').width()*1.117+"px"
     });
     tiles[2].css({
-        height:$('#blog-tile').width()*.96+"px"
+        height:$('#blog-tile').width()*1.117+"px"
     });
     tiles[3].css({
-        height:$('#register-tile').width()*1.374+"px"
+        height:$('#register-tile').width()*1.59+"px"
     });
     $('#about-tile').css({
         height:$('#about-tile').width()*.598+"px"
