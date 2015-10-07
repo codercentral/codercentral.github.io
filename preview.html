@@ -1,16 +1,16 @@
 <div ng-repeat="post in preview.posts">
-    <div class="row"><h1 class="blog-title">{{post.title}}</h1></div>
+    <div class="row"><h1 class="blog-title ">{{post.title}}</h1></div>
     <div class="row">
-        <h4 class="blog-info col-md-3">
+        <h4 class="blog-info col-md-3 col-xs-4">
             Posted by:{{post.author}}
             <br/>{{post.date}}
         </h4>
-        <img ng-src="{{post.image}}" alt="post image" class="col-md-3">
-        <p class="blog-desciption col-md-6">
+        <img ng-src="{{post.image}}" alt="post image" class="col-md-3 col-xs-6">
+        <p class="blog-desciption col-md-6 col-xs-12">
             {{post.description}}
         </p>
     </div>
     <div class="row">
-        <a class="btn btn-primary pull-right" ng-href="{{post.link}}">Read More</a>
+        <a class="btn btn-primary pull-right col-xs-12" ng-href="{{post.link}}">Read More</a>
     </div>
 </div>
