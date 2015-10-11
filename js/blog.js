@@ -48,6 +48,10 @@ jQuery(document).ready(function(){
         scrollTo('#easyt');
     });
 
+    $('#back').on('click', function(e){
+        e.preventDefault();
+        scrollTo('#blogintro');
+    });
 });
 
 var app=angular.module("blog", []);
