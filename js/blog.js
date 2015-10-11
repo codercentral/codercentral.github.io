@@ -24,7 +24,29 @@ jQuery(document).ready(function(){
         }
     });
 
+    function scrollTo(id){
+        $('html, body').animate({
+            scrollTop:$(id).offset().top
+        },2000);
+    }
 
+    function buildScroll(tag){
+        $(tag).on('click', function(e){
+            e.preventDefault();
+            scrollTo(tag + 't');
+        });
+    }
+
+    var tags = ['#web', '#mobile', '#unity', '#usaco', '#desktop', '#robots', '#csap', '#easy'];
+
+    for(var i = 0; i < tags.length; i++){
+        buildScroll(tags[i]);
+    }
+
+    $('#choose').on('click', function(e){
+        e.preventDefault();
+        scrollTo('#easyt');
+    });
 
 });
 

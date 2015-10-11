@@ -206,9 +206,13 @@ td{padding:2%;}
 #myAffixed.affix{position:fixed !important; top:70px; width:19%; padding:1%;}
 .liner{background-color:lightgrey;height:2px; margin-bottom:10%; margin-top:10%;}
 .blog-intro a{color:blue;}
-.blog-body p{line-height:175%; margin-bottom:5%;}
+.blog-body p{line-height:175%; margin-bottom:2%;}
 .blog-body a{color:blue;}
 .blog-body .well p{line-height:100%; margin-bottom:1%;}
+.blog-body .row {padding-top: 30px; padding-bottom: 30px;}
+.blog-body .row h4 {padding-top: 10px; padding-bottom: 10px;}
+.blog-body li {line-height: 40px;}
+.blog-body li a {color: white;}
 
 /*Footer*/
 .footer p{color:lightgrey;}
