@@ -41,31 +41,45 @@
     <div class="row">
         <div class="col-md-9 blog-body">
             <div class="row">
-                <p>
-                    As coding instructors, we get this question a lot from interested students and parents.
-                    The answer is that it’s not just based on how beginner-friendly it is - it also depends on what you’re
-                    interested in building. To help you through this, we’ll also ask you a question: <b>Why do you
-                    (or your child) want to learn programming? </b> Remember that a beginner can learn any language mentioned
-                    here from the ground up; there are no prerequisites.
-                </p>
-                <p>
-                    Choose an answer below, or read through all of them. Even if you already have an idea of what you
-                    want to do, take a look at some of the other choices in case they sound interesting to you as well!
-                </p>
-                <ul style="list-style-type: none; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;">
-                    <li><a href="#" class="btn btn-primary" id="web">I want to design and build websites!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="mobile">I want to create and build mobile games and applications!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="unity">I want to design and program games!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="usaco">I want to participate in programming competitions!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="desktop">I want to learn a powerful language to build desktop programs, complex PC games, and more!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="robots">I want to program machines/robots!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="csap">I want to preview or prepare for the AP Computer Science class or test!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="easy">I want a easier/gentler introduction to programming!</a></li>
-                    <li><a href="#" class="btn btn-primary" id="choose">I don’t know, just choose one for me!</a></li>
-                </ul>
+                <div class="well col-md-12">
+                    <p  style="line-height:150%;">
+                        As coding instructors, we get this question a lot from interested students and parents.
+                        The answer is that it’s not just based on how beginner-friendly it is - it also depends on what you’re
+                        interested in building. To help you through this, we’ll also ask you a question: <b>Why do you
+                        (or your child) want to learn programming? </b> Remember that a beginner can learn any language mentioned
+                        here from the ground up; there are no prerequisites.
+                    </p>
+                    <p  style="line-height:150%;">
+                        Choose an answer below, or read through all of them. Even if you already have an idea of what you
+                        want to do, take a look at some of the other choices in case they sound interesting to you as well!
+                    </p>
+                </div>
+                <h1 class="text-center" style="padding-top:3%;">I want to...</h1>
+                <h6 class="text-center">(Click on one of the following)</h6>
+                <div id="buttons">
+                    <div class="row">
+                        <a href="#" class="btn btn-primary col-md-4 col-xs-12" id="web">design and build <br> websites</a>
+                        <a href="#" class="btn btn-info col-md-4 col-xs-12" id="mobile">create and build mobile <br> games and applications</a>
+                        <a href="#" class="btn btn-primary col-md-3 col-xs-12" id="unity">design and program<br> games</a>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="btn btn-info col-md-4 col-xs-12" id="usaco">do programming <br> competitions</a>
+                        <a href="#" class="btn btn-primary col-md-4 col-xs-12" id="desktop">build desktop programs,<br> complex PC games, and more</a>
+                        <a href="#" class="btn btn-info col-md-3 col-xs-12" id="robots">program machines and<br> robots</a>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="btn btn-primary col-md-4 col-xs-12" id="csap">preview or prepare for the AP<br> Computer Science class or test</a>
+                        <a href="#" class="btn btn-info col-md-4 col-xs-12" id="easy">have a friendly <br>introduction to programming</a>
+                        <a href="#" class="btn btn-primary col-md-3 col-xs-12" id="choose">I don’t know, just <br>choose one for me</a>
+                    </div>
+
+                </div>
+
+
             </div>
 
             <div class="row" id="webt">
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
                 <h1>I want to design and build websites! ();</h1>
                 <img src="../images/web.jpg" class="col-md-3 col-xs-12 pull-right"/>
                 <h4 class="languages"> Languages: HTML, CSS, and JavaScript </h4>
@@ -79,6 +93,7 @@
             </div>
 
             <div class="row" id="mobilet">
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
                 <h1>I want to create and build mobile games and applications! ();</h1>
                 <h4 class="languages"> Languages: Swift (for iOS devices), Java (for Android devices) </h4>
                 <p>
@@ -93,6 +108,7 @@
             </div>
 
             <div class="row" id="unityt">
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
                 <h1>I want to design and program games! ();</h1>
                 <h4 class="languages"> Language: Unity</h4>
                 <img src="../images/unity.png" class="col-md-3 col-xs-12 pull-right"/>
@@ -104,7 +120,8 @@
             </div>
 
             <div class="row" id="usacot">
-                <h1>I want to participate in programming competitions! ();</h1>
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
+                <h1>I want to participate in programming competitions();</h1>
                 <h4 class="languages"> Language: C++</h4>
                 <p>If you enjoy problem solving, logic puzzles, and competitions, then you might be interested in
                     preparing and competing in programming competitions like the USA Computing Olympiad. C++ is widely
@@ -114,7 +131,8 @@
             </div>
 
             <div class="row" id="desktopt">
-                <h1>I want to learn a powerful language to build desktop programs, complex PC games, and more! ();</h1>
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
+                <h1>I want to learn a powerful language to build desktop programs, complex PC games, and more();</h1>
                 <h4 class="languages"> Language: C++</h4>
                 <p>
                     <img src="../images/lol.png" class="col-md-3 col-xs-12 pull-right"/>
@@ -125,7 +143,8 @@
             </div>
 
             <div class="row" id="robotst">
-                <h1>I want to program machines/robots! ();</h1>
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
+                <h1>I want to program machines and robots();</h1>
                 <img src="../images/robot.jpg" class="col-md-3 col-xs-12 pull-right"/>
                 <h4 class="languages"> Languages: C++ or Python</h4>
                 <p>
@@ -138,7 +157,8 @@
             </div>
 
             <div class="row" id="csapt">
-                <h1>I want to preview or prepare for the AP Computer Science class or test! ();</h1>
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
+                <h1>I want to preview or prepare for the AP Computer Science class or test();</h1>
                 <img src="../images/java.png" class="col-md-2 col-xs-12 pull-right"/>
                 <h4 class="languages"> Language: Java</h4>
                 <p>
@@ -148,9 +168,10 @@
             </div>
 
             <div class="row" id="easyt">
-                <h1>I want a easier/gentler introduction to programming! ();</h1>
-                <h2><em>or</em></h2>
-                <h1>I don’t know, just choose one for me! ();</h1>
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
+                <h1>I want a friendlier introduction to programming();</h1>
+                <h2><em >or</em></h2>
+                <h1>I don’t know, just choose one for me ();</h1>
                 <h4 class="languages"> Language: Python</h4>
                 <p>
                     <img src="../images/python.png" class="col-md-3 col-xs-12 pull-right"/>
@@ -160,9 +181,10 @@
                 </p>
             </div>
 
-            <div class="row">
+            <div class="col-md-12 well">
+                <hr class="col-md-12 col-xs-12" style="background-color:lightgrey">
                 <h1>Resources</h1>
-                <p>
+                <p style="line-height:150%">
                     Resources for learning progamming include <a href="http://codecademy.com">Codecademy</a>, which has
                     online, self-guided tutorials for many languages that’s great for beginners. For those looking for
                     more structured courses taught by instructors in person, Coder Central also offers courses and whole
