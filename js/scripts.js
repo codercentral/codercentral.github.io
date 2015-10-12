@@ -22,6 +22,7 @@ jQuery(document).ready(function(){
             $('.footer').html(response);
         }
     });
+    $("#codercon").lightGallery();
 });
 
 function htmlCourse(){
