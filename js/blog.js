@@ -72,7 +72,7 @@ var library=[
         title:'What Coding Language You Should Learn?',
         author:'Jerry Li',
         date:'October 11, 2015',
-        image:'images/prog-languages.png',
+        image:'images/kidcoding.png',
         description:"With so many coding languages out there, what should you learn? It's actually not as hard as you might" +
         "think it is to decide on one. Read this interactive blog post to find out what coding language YOU should learn!",
         link:'blogs/what-coding-lang-to-learn.html'
