@@ -493,13 +493,13 @@ a:hover{  text-decoration: none;  }
     text-decoration: none;
 }
 
-#instructor-tile{ background-color: rgb(97,99,97) }
+#instructor-tile{ background-color: #3881c9 }
 
-#register-tile{  background-color:rgb(135,179,204)    }
+#register-tile{  background-color:#cf6596   }
 
-#blog-tile{ background-color: rgb(129,149,60) }
+#blog-tile{ background-color: #9fc441 }
 
-#event-tile{  background-color: rgb(211,198,149)   }
+#event-tile{  background-color: #e4ce77   }
 
 #intro{
     text-align:center;
