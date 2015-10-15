@@ -443,9 +443,25 @@
     <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
     <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
     <script type="text/javascript" src='js/bootstrap.min.js'></script>
-    <!--<script type="text/javascript" src="js/sweetalert.min.js"></script>-->
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script type="text/javascript" src='js/scripts.js'></script>
     <script type="text/javascript" src="js/homepage.js"></script>
+<script>
+    swal({
+        title: "Free Workshops",
+        text: "Learn about iOS Development, C++, Java - Sunday, 9:30am @ Pleasanton Think Tank. " +
+        "Find out more by clicking yes!",
+        imageUrl: "images/codercon.png",
+        showCancelButton: true,
+        confirmButtonColor: "#00affc",
+        confirmButtonText: "Yes, I want to go!",
+        cancelButtonText: "No, thank you."
+    },function(isConfirm){
+        if(isConfirm){
+            window.location.href = "http://www.eventbrite.com/e/coder-central-fall-workshops-tickets-19092143114?aff=affiliate1";
+        }
+    });
+</script>
 </body>
 </html>
