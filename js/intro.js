@@ -63,6 +63,7 @@ jQuery(document).ready(function(){
         showCursor: false,
         callback:function(){
             $('.text-stuff').fadeIn(1000);
+            $('#real-content').fadeIn(1000);
             $('#landing-nav').animate({
                 'opacity':1,
                 'right':40+'px'

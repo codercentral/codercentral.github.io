@@ -35,7 +35,7 @@
 .landing h1, .landing h2{font-family: archiveregular, sans-serif !important;}
 .landing h1{font-size:5em;}
 .landing h2{margin-left:5%;}
-#title, .text-stuff{display:none;}
+#title, .text-stuff, #real-content{display:none;}
 .text-stuff{margin-left:6%; margin-top:3%;}
 #text{
     font-family: 'Open Sans', sans-serif;
