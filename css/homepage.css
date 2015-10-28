@@ -1,0 +1,10 @@
+body { width: 8000px; }
+.panel {
+    width: 930px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 1040px;
+    margin-top: 45px;
+}
+ul#banner { position: fixed; line-height: 45px; margin: 0 30px; padding: 0; }
+ul#banner li { display: inline; }
