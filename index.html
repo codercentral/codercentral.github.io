@@ -11,6 +11,7 @@
     <meta name="author" content="Coder Central">
     <title>Coder Central | Be Inspired</title>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="css/homepage.css" type="text/css" rel="stylesheet"/>
     <link rel = "shortcut icon" href = "images/favicon.ico">
 </head>
@@ -28,11 +29,38 @@
 
     <div id="home" class="page">
         <div class="landing">
-            <h1>CoderCentral()}</h1>
-            <h2>>>Be Inspired</h2>
+            <h1 id="title">Coder Central()}</h1>
+            <h3 id="slogan"></h3>
+            <div class="text-stuff">
+                <h4 id="text">
+                    Take a look at the real world problems your student can solve through coding.
+                </h4>
+                <a href="courses.html" class="home-btn">View Courses</a>
+            </div>
+            <a class="glyphicon glyphicon-chevron-right scroller scroll" id="landing-nav-btn" href="#newsletter"></a>
         </div>
     </div>
-    <div id="newsletter" class="page"> ...</div>
+    <div id="newsletter" class="page">
+        <div id="pg-content-1">
+            <div class="landing-header" id="one">
+                <h1>From Extra-Curricular to <br> Co-Curricular</h1>
+            </div>
+            <a class="glyphicon glyphicon-chevron-left scroll left" id="one-left-nav" href="#home"></a>
+            <div class="container landing-content">
+                <div class="col-md-5 col-md-offset-1">
+                    <h3>What was thought to be only for nerds, is now for everybody.</h3> As we interact more with technology,
+                    knowing how to code is also becoming more integral. It helps us make sense of math equations and science.
+                    It allows us to express ourselves to the internet through websites and writing.
+                </div>
+                <div class="col-md-5">
+                    <h3>Designed by current students at UCLA and UC Irvine,</h3> Coder Central courses are meant to be
+                    inter-disciplinary, meaning they combine traditional school subjects such as English,
+                    Math, and Science with coding!
+                </div>
+            </div>
+            <a class="glyphicon glyphicon-chevron-right scroll right" id="one-right-nav" href="#directions"></a>
+        </div>
+    </div>
     <div id="directions" class="page"> ... </div>
     <div id="contact" class="page"> ... </div>
 
@@ -50,8 +78,8 @@
 <script>
     jQuery(document).ready(function(){
         var width=$(window).width();
-        $('body').css({'width':width*4+'px'});
-        $('.page').css({'width':width+'px'});
+        $('body').css({'width':width*4.4+'px'});
+        $('.page').css({'width':width*1.013+'px'});
     });
 </script>
 </body>

@@ -13,13 +13,79 @@
 .page {
     height:97vh;
     float: left;
+    position:relative;
 }
-.landing{margin:5% 0 1% 6%;}
+.page h1, .page h2{font-family:archiveregular, sans-serif;}
+.page a:hover{text-decoration: none;}
+.scroll, .scroller{opacity:0;}
+
+/*Landing Section of the Homepage*/
+.landing{
+    height:100%;
+    padding:5% 0 1% 6%;
+    background: rgba(24, 20, 18, 0.89); color:white;
+    /*rgb(52,50,54)*/
+    position:relative;
+}
 .landing h1, .landing h2{font-family: archiveregular, sans-serif !important;}
 .landing h1{font-size:5em;}
-.landing h2{margin-left:5%;}
+.landing h3{margin-left:5%;}
+#title, .text-stuff{display:none;}
+.text-stuff{margin-left:6%;}
+#text{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.75em;
+    font-weight:100;
+    margin-top:3%;
+    margin-bottom:8%;
+    width:40%;
+}
+.home-btn{
+    border: 1px solid #52b8e8;
+    border-radius:3px;
+    padding: 1% 5% 1% 5%;
+    background-color:#4999C7;
+    color:white !important;
+    text-decoration: none !important;
+    margin:3%;
+}
+#landing-nav-btn{
+    position:absolute;
+    right:90px;
+    top:45%;
+    font-size:3em;
+    color:white;
+}
+#landing-nav-btn:hover{text-decoration: none;}
 
 ul#banner { position: fixed; line-height: 45px; margin: 0 30px; padding: 0; }
 ul#banner li { display: inline; }
 
-#home{background: rgb(52,50,54); color:white; font-family: archiveregular, sans-serif;}
+#home{font-family: archiveregular, sans-serif;}
+
+/*Landing Section of the Homepage*/
+
+/*First Section of the Homepage*/
+
+#pg-content-1{ height:100%;}
+#one{background-color:#6F5499}
+.landing-header{
+    padding:3%;
+    height:40%;
+    width:100%;
+    color:white !important;
+}
+.landing-header h1{font-size:4em; text-align:center;}
+.landing-content{
+    margin-top:2%;
+    line-height:200%;
+}
+.landing-content h3{font-family: archiveregular, sans-serif; display:inline;}
+#one-left-nav, #one-right-nav{
+    color: #e0e0e0;
+    position:absolute;
+    font-size:2.5em;
+    top:65%;
+}
+#one-left-nav{  left:90px;  }
+#one-right-nav{  right:90px;  }
