@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
     <meta name="description" content="Located in Pleasanton CA, Coder Central is a non-profit organization
         dedicated to challenging students of all ages to solve real world problems with coding. Current course
         offerings include Java, C++, iOS app development, and more.">
@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
     <link href="css/homepage.css" type="text/css" rel="stylesheet"/>
     <link rel = "shortcut icon" href = "images/favicon.ico">
+
 </head>
-<body style="overflow:hidden;">
+<body>
+
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,7 +30,7 @@
     ga('send', 'pageview');
 </script>
     <div id="home" class="page">
-        <div class="landing">
+        <div class="landing page">
             <div class="row">
                 <img src="images/tshirt%20(1).png" id="title" class="col-md-7 col-xs-12">
             </div>
@@ -48,14 +50,13 @@
                 <br>
                 <a id="learn-more" class="scroll" href="#newsletter">Click to <br>Learn More</a>
             </div>
-
         </div>
     </div>
     <div id="real-content">
         <div id="newsletter" class="page">
             <div id="pg-content-1">
                 <div class="landing-header" id="one">
-                    <h1>From Extra- to <br> Co-Curricular</h1>
+                    <h1>Interdisciplinary <br>Coding Courses</h1>
                 </div>
                 <a class="glyphicon glyphicon-chevron-left scroll left left-nav" href="#home"></a>
                 <div class="container landing-content">
@@ -123,12 +124,12 @@
 <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
 <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
 <script type="text/javascript" src="js/atbo-fadethrough-1.0.js"></script>
-<script src="js/typed.min.js"></script>
+<script src="js/typed.min.js"></script><script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script type="text/javascript" src='js/intro.js'></script>
 <script>
     jQuery(document).ready(function(){
-        var body=$('body');
+
         $('.wrapper').mCustomScrollbar({
             axis:"x", // horizontal scrollbar
             theme:"minimal",
@@ -136,9 +137,7 @@
             scrollInertia:10,
             alwaysShowScrollbar: 1
         });
-        var width=$(window).width();
-        body.css({'width':width*4.4+'px'});
-        $('.page').css({'width':width*1.013+'px'});
+
     });
 </script>
 </body>

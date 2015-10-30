@@ -10,7 +10,29 @@
     font-style: normal;
 }
 
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{overflow-y:visible!important;}
+    .landing-header h1{font-size:2.4em; }
+    .landing-header{  height:25%;  }
+    .landing-content h3{ font-size:1.25em; }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    .landing-header h1{font-size:4.5em; }
+}
+
+
+
 /*.wrapper{overflow:visible; height:100vh; width:100vw;}*/
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative
+}
 .page {
     height:100vh;
     float: left;
@@ -91,23 +113,20 @@ ul#banner li { display: inline; }
 #four{background-color:#e4ce77;}
 .landing-header{
     padding:3%;
-    height:40%;
     width:100%;
     color:white !important;
 }
-.landing-header h1{font-size:4.5em; text-align:center;}
-.landing-content{
-    margin-top:2%;
-    line-height:200%;
-}
+
+.landing-content{  margin-top:2%;  line-height:200%;  }
 .landing-content h3{font-family: archiveregular, sans-serif; display:inline;}
 .left-nav, .right-nav{
-    color: #e0e0e0;
+    color: #c4c4c4;
     position:absolute;
+    /*z-index:10;*/
     font-size:2.5em;
     top:65%;
 }
-.left-nav:hover, .right-nav:hover{color: #b4b4b4;}
+.left-nav:hover, .right-nav:hover{color: #949494;}
 .left-nav{  left:150px;  }
 .right-nav{  right:150px;  }
 
