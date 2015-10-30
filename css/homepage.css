@@ -10,7 +10,6 @@
     font-style: normal;
 }
 
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .home-btn{ font-size:2em; margin:10%; position:relative; top:50px;}
@@ -44,6 +43,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /*.wrapper{overflow:visible; height:100vh; width:100vw;}*/
 html, body {
     overflow-x: hidden;
+    width:440vw;
 }
 body {
     position: relative;
@@ -54,6 +54,7 @@ body {
     position:relative;
     font-family:'Open Sans', sans-serif;
     overflow-y:scroll;
+    overflow-x:hidden;
 }
 .page h1, .page h2{font-family:archiveregular, sans-serif;}
 .page a:hover{text-decoration: none;}
@@ -115,7 +116,7 @@ body {
 ul#banner { position: fixed; line-height: 45px; margin: 0 30px; padding: 0; }
 ul#banner li { display: inline; }
 
-#home{font-family: archiveregular, sans-serif; overflow:hidden;}
+#home{font-family: archiveregular, sans-serif; overflow-x:hidden;}
 
 /*Landing Section of the Homepage*/
 
@@ -131,7 +132,7 @@ ul#banner li { display: inline; }
     color:white !important;
 }
 
-.landing-content{  margin-top:2%;  line-height:200%;  }
+.landing-content{  margin-top:2%;  line-height:200%; }
 .landing-content h3{font-family: archiveregular, sans-serif; display:inline;}
 .left-nav, .right-nav{
     color: #c4c4c4;

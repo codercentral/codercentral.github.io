@@ -24,15 +24,15 @@ jQuery(document).ready(function(){
     var lastEl=this.prev();
     if(this[0] != home[0]){
         if(direction=="left"){
-            $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 500);
+            $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 300);
         }else if( direction=="right"){
             if(typeof this.prev()[0]=== 'undefined')
-                $('html, body').animate({scrollLeft: 0}, 500);
+                $('html, body').animate({scrollLeft: 0}, 300);
             else
-                $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 500);
+                $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 300);
         }
     }else{
-        $('html, body').animate({scrollLeft: width*1.013}, 500);
+        $('html, body').animate({scrollLeft: width*1.013}, 300);
     }
     console.log("swiped" + direction);
 }
