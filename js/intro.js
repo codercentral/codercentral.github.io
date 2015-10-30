@@ -6,19 +6,19 @@ jQuery(document).ready(function(){
     //allows all arrows to scroll to certain sections of the page
     var body=$('body');
     var width=$(window).width();
-    body.css({'width':width*4.4+'px'});
+    body.css({'width':width*5.4+'px'});
     pg.css({'width':width*1.013+'px'});
     var scroll=$('.scroll');
     scroll.bind("click",function(event){
         event.preventDefault();
         var target = $(this).attr("href");
         $("html, body").stop().animate({
-            scrollLeft: $(target).offset().left,
+            scrollLeft: $(target).offset().left
             }, 1200);
     });
     var home=$('#home');
+    //navigation through swiping (desktop and mobile)
     pg.swipe( {swipe:swipe1,allowPageScroll:"vertical"});
-
     function  swipe1(event, direction, distance, duration) {
     var currentElement = this.next();
     var lastEl=this.prev();
@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
     if($(window).width()>400){
         $(window).on('scroll',function(){
             var horizontalPos=$('body').scrollLeft();
-            var newsPos=$('#pg-content-1').offset();
+            var newsPos=$('#pg-content-0').offset();
             var directPos=$('#directions').offset();
             var contactPos=$('#contact').offset();
             var nextNews=(horizontalPos>(newsPos.left-1));
