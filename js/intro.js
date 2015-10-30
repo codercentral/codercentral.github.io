@@ -14,31 +14,28 @@ jQuery(document).ready(function(){
         var target = $(this).attr("href");
         $("html, body").stop().animate({
             scrollLeft: $(target).offset().left,
-            scrollTop: $(target).offset().top }, 1200);
+            }, 1200);
     });
     var home=$('#home');
-    pg.swipe( {
-        //Generic swipe handler for all directions
-        swipe:function(event, direction, distance, duration) {
-            var currentElement = this.next();
-            var lastEl=this.prev();
-            if(this[0] != home[0]){
-                if(direction=="left"){
-                    $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 800);
-                }else if( direction=="right"){
-                    if(typeof this.prev()[0]=== 'undefined')
-                        $('html, body').animate({scrollLeft: 0}, 800);
-                    else
-                        $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 800);
-                }
-            }else{
-                    $('html, body').animate({scrollLeft: width*1.013}, 800);
-            }
-            console.log("swiped" + direction);
-        },
-        //Default is 75px, set to 0 for demo so any distance triggers swipe
-        threshold:0
-    });
+    pg.swipe( {swipe:swipe1,allowPageScroll:"vertical"});
+
+    function  swipe1(event, direction, distance, duration) {
+    var currentElement = this.next();
+    var lastEl=this.prev();
+    if(this[0] != home[0]){
+        if(direction=="left"){
+            $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 500);
+        }else if( direction=="right"){
+            if(typeof this.prev()[0]=== 'undefined')
+                $('html, body').animate({scrollLeft: 0}, 500);
+            else
+                $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 500);
+        }
+    }else{
+        $('html, body').animate({scrollLeft: width*1.013}, 500);
+    }
+    console.log("swiped" + direction);
+}
 
     //things to do on scroll if not on mobile
     if($(window).width()>400){
