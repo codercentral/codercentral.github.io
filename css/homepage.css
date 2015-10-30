@@ -13,15 +13,31 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body{overflow-y:visible!important;}
+    .home-btn{ font-size:2em; margin:10%; position:relative; top:50px;}
+    #landing-nav-btn{ font-size:2em !important; }
+    #learn-more{ font-size:13px !important; }
     .landing-header h1{font-size:2.4em; }
     .landing-header{  height:25%;  }
+    .landing-content{ height:70vh; }
     .landing-content h3{ font-size:1.25em; }
+    ::-webkit-scrollbar { background-color:white; width:4px; position:relative; right:10px;}
+    ::-webkit-scrollbar-track { background-color:white; }
+    ::-webkit-scrollbar-thumb  { background-color:black; border-radius:1px;}
+
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .landing-header h1{font-size:2em; }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
     .landing-header h1{font-size:4.5em; }
+    #landing-nav-btn{ font-size:3.5em !important; }
 }
 
 
@@ -37,8 +53,8 @@ body {
     height:100vh;
     float: left;
     position:relative;
-    overflow:visible;
     font-family:'Open Sans', sans-serif;
+    overflow-y:scroll;
 }
 .page h1, .page h2{font-family:archiveregular, sans-serif;}
 .page a:hover{text-decoration: none;}
@@ -48,7 +64,7 @@ body {
 .landing{
     height:100%;
     padding:7% 3% 0 6%;
-    background: linear-gradient(to right, #141414, rgba(24, 15, 10, 0.91)) ; color:white;
+    background: linear-gradient(to right, #050505, rgba(57, 58, 55, 0.91)) ; color:white;
     /*rgb(52,50,54)*/
     position:relative;
 }
@@ -75,12 +91,11 @@ body {
     background-color:#4999C7;
     color:white !important;
     text-decoration: none !important;
-    margin:0;
 }
 #landing-nav-btn{
     position:relative;
     opacity:1 !important;
-    font-size:3.5em !important;
+
     color:white;
     float:right;
     z-index:5;
@@ -129,6 +144,9 @@ ul#banner li { display: inline; }
 .left-nav:hover, .right-nav:hover{color: #949494;}
 .left-nav{  left:150px;  }
 .right-nav{  right:150px;  }
+/*Mobile sections scrollbar*/
+
+
 
 /*Section 1*/
 #directors{ opacity:.8; margin-top:-26px;}

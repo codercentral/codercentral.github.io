@@ -12,7 +12,6 @@
     <title>Coder Central | Be Inspired</title>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
     <link href="css/homepage.css" type="text/css" rel="stylesheet"/>
     <link rel = "shortcut icon" href = "images/favicon.ico">
 
@@ -47,8 +46,9 @@
                 <a class="glyphicon glyphicon glyphicon-menu-right scroller scroll" id="landing-nav-btn"  href="#newsletter"></a>
                 <br>
                 <br>
-                <br>
-                <a id="learn-more" class="scroll" href="#newsletter">Click to <br>Learn More</a>
+                <br class="hidden-xs">
+                <a id="learn-more" class="scroll hidden-xs" href="#newsletter">Click to <br>Learn More</a>
+                <a id="learn-more" class="scroll visible-xs" href="#newsletter">Swipe to <br>Learn More</a>
             </div>
         </div>
     </div>
@@ -125,20 +125,7 @@
 <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
 <script type="text/javascript" src="js/atbo-fadethrough-1.0.js"></script>
 <script src="js/typed.min.js"></script><script src="js/jquery.touchSwipe.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script type="text/javascript" src='js/intro.js'></script>
-<script>
-    jQuery(document).ready(function(){
 
-        $('.wrapper').mCustomScrollbar({
-            axis:"x", // horizontal scrollbar
-            theme:"minimal",
-            scrollbarPosition: "inside",
-            scrollInertia:10,
-            alwaysShowScrollbar: 1
-        });
-
-    });
-</script>
 </body>
 </html>
