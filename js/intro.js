@@ -2,9 +2,29 @@
  * Created by Daniel on 8/31/2015.
  */
 jQuery(document).ready(function(){
+    var body=$('body');
+    $.ajax('navbar.html',{
+        success:function(response){
+            $('nav').html(response);
+        }
+    });
+    setTimeout(function(){
+        if(body.scrollLeft()==0){
+            $('.navbar').addClass('clear-nav');
+        }else{
+            $('.navbar').removeClass('clear-nav');
+        }
+    },500);
+    $(window).scroll(function(){
+        if(body.scrollLeft()==0){
+            $('.navbar').switchClass('blah','clear-nav',500,"swing" );
+        }else{
+            $('.navbar').switchClass('clear-nav','blah',500,"swing" );
+        }
+    });
     var pg=$(".page");
     //allows all arrows to scroll to certain sections of the page
-    var body=$('body');
+
     var width=$(window).width();
     body.css({'width':width*5.4+'px'});
     pg.css({'width':width*1.013+'px'});
