@@ -1,0 +1,59 @@
+#winter-bootcamp{
+    background-color: cornflowerblue;
+}
+
+#page-nav{
+    padding-top:1%;
+    background:linear-gradient(rgb(202, 198, 198),lightgrey);
+    opacity:1 !important;
+}
+
+#page-nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#page-nav li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bootcamp-info{
+    margin: 3em;
+    position: relative;
+    height: 10em;
+}
+
+.affix{
+    top:50px;
+    width:100%;
+    z-index:5;
+}
+
+.section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#logisticsh, #instructorh{
+    background-color: whitesmoke;
+}
+
+.service-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-subheading{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#page-nav li{
+    text-decoration: none;
+    color: white;
+}

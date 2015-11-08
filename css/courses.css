@@ -21,15 +21,13 @@ b{
 
 .courseHighlight{
     background-color:lightgrey;
-    height:190%;
+    height:100%;
     width:61%;
     position:absolute;
     z-index:-2;
 }
 
-.course-info{
-    margin-top: 3em;
-}
+.course-info{  margin-top: 3em;  }
 
 .lesson:first-child{
     margin-top: 2em;
