@@ -218,3 +218,12 @@ td{padding:2%;}
 /*Footer*/
 .footer p{color:lightgrey;}
 
+/*Blinking Animation*/
+
+@keyframes blinking {
+    from {opacity:1;}
+    to {opacity:0;}
+}
+
+#loading{  animation: blinking 1s linear .5s 15 alternate;  }
+#info span{font-weight:600;}
