@@ -16,7 +16,7 @@
     #landing-nav-btn{ font-size:2em !important; cursor:pointer; }
     #learn-more{ font-size:13px !important; }
     .landing-header h1{font-size:2.4em; }
-    .landing-header{  height:25%;  }
+    .landing-header{  height:25%; padding:10%; }
     .landing-content{ height:70vh; }
     .landing-content h3{ font-size:1.25em; }
     ::-webkit-scrollbar { background-color:white; width:4px; position:relative; right:10px;}
@@ -34,6 +34,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
+    .landing-header{height:100vh; padding:3%;}
     .landing-header h1{font-size:4.5em; }
     #landing-nav-btn{ font-size:3.5em !important; }
 }
@@ -49,13 +50,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .clear-nav .dropdown-menu>li>a{color: #d6d6d6;}
 .clear-nav .dropdown-menu>li>a:hover{color: #ffffff; background-color:transparent; }
 html, body {
-    overflow-x: hidden;
-    width:440vw;
+    overflow:hidden;
+    width:500vw;
+    background-color: rgb(247, 251, 252);
 }
 body {
     position: relative;
 }
 .page {
+    width:100vh;
     height:100vh;
     float: left;
     position:relative;
@@ -71,7 +74,8 @@ body {
 .landing{
     height:100%;
     padding:7% 3% 0 6%;
-    background: linear-gradient(to right, #050505, rgba(57, 58, 55, 0.91)) ; color:white;
+    background:rgba(44, 62, 80,1.0) ;
+    color:white;
     /*rgb(52,50,54)*/
     position:relative;
 }
@@ -95,7 +99,7 @@ body {
     border: 1px solid #52b8e8;
     border-radius:3px;
     padding: 1% 5% 1% 5%;
-    background-color:#4999C7;
+    background-color: rgb(65, 216, 219);
     color:white !important;
     text-decoration: none !important;
 }
@@ -128,35 +132,47 @@ ul#banner li { display: inline; }
 
 /*Sections of the Homepage*/
 #pg-content-1, #pg-content-2, #pg-content-3, #pg-content-4{ height:100%;}
-#zero{background-color:#6F5499;}
-#one{background-color:#3881c9;}
-#two{background-color:#23C3CD;}
-#three{background-color:#9fc441;}
-#four{background-color:#e4ce77;}
+#zero{background-color:rgba(142, 68, 173,1.0);}
+#one{background-color:rgba(52, 152, 219,1.0);}
+#two{background-color:rgba(46, 204, 113,1.0);}
+#three{background-color:rgba(241, 196, 15,1.0);}
+#four{}
+#nav{
+    position:relative;
+    z-index:5;
+}
+.stff{
+    height:30px;
+    width:30px;
+}
 .next-page{text-align:right;}
 .next-page h6{display:inline; position:relative; right:0;}
-.landing-header{
-    padding:6% 3% 3% 3%;
-    width:100%;
-    color:white !important;
-}
+.landing-header{  color:white !important;  display:none;  }
 
-.landing-content{  margin-top:2%;  line-height:200%; }
+.landing-content{
+    display:none;
+    margin-top:5%;
+    line-height:200%;
+    height:85vh;
+    padding:3% 5% 3% 3%;
+}
 .landing-content h3{font-family: archiveregular, sans-serif; display:inline;}
 .left-nav, .right-nav{
-    color: #999999;
-    position:absolute;
+    color: #464646;
+    position:fixed;
     z-index:10;
     font-size:2.5em;
-    top:65%;
+    top:90%;
     cursor:pointer;
 }
-.left-nav:hover, .right-nav:hover{color: #746b69; text-decoration:none !important;}
+.left-nav:hover, .right-nav:hover{color: #aa9d9a; text-decoration:none !important;}
 .left-nav:active, .right-nave:active, .left-nav:visited, .right-nav:visited{text-decoration:none !important;}
-.left-nav{  left:150px;  }
-.right-nav{  right:150px;  }
-/*Mobile sections scrollbar*/
+.left-nav{  left:40%;  }
+.right-nav{  right:40%;  }
 
+.pg-btn{margin:10% 0 0 33%;}
+/*Mobile sections scrollbar*/
+a.next-page{color:white;text-decoration:none;}
 
 
 /*Section 1*/

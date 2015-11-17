@@ -18,10 +18,15 @@ jQuery(document).ready(function(){
     $(window).scroll(function(){
         if(body.scrollLeft()==0){
             $('.navbar').switchClass('blah','clear-nav',500,"swing" );
+            $('#nav').fadeOut();
         }else{
             $('.navbar').switchClass('clear-nav','blah',500,"swing" );
+            $('#nav').fadeIn('slow');
         }
+
+
     });
+
     var pg=$(".page");
     //allows all arrows to scroll to certain sections of the page
 
@@ -40,27 +45,27 @@ jQuery(document).ready(function(){
     //navigation through swiping (desktop and mobile)
     pg.swipe( {swipe:swipe1,allowPageScroll:"vertical"});
     function  swipe1(event, direction, distance, duration) {
-    var currentElement = this.next();
-    var lastEl=this.prev();
-    if(this[0] != home[0]){
-        if(direction=="left"){
-            $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 300);
-        }else if( direction=="right"){
-            if(typeof this.prev()[0]=== 'undefined')
-                $('html, body').animate({scrollLeft: 0}, 300);
-            else
-                $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 300);
+        var currentElement = this.next();
+        var lastEl=this.prev();
+        if(this[0] != home[0]){
+            if(direction=="left"){
+                $('html, body').animate({scrollLeft: $(currentElement).offset().left}, 300);
+            }else if( direction=="right"){
+                if(typeof this.prev()[0]=== 'undefined')
+                    $('html, body').animate({scrollLeft: 0}, 300);
+                else
+                    $('html, body').animate({scrollLeft: $(lastEl).offset().left}, 300);
+            }
+        }else{
+            $('html, body').animate({scrollLeft: width*1.013}, 300);
         }
-    }else{
-        $('html, body').animate({scrollLeft: width*1.013}, 300);
+        console.log("swiped" + direction);
     }
-    console.log("swiped" + direction);
-}
 
     //things to do on scroll if not on mobile
     if($(window).width()>400){
         $(window).on('scroll',function(){
-            var horizontalPos=$('body').scrollLeft();
+            var horizontalPos=document.documentElement.scrollLeft || document.body.scrollLeft;
             var newsPos=$('#pg-content-0').offset();
             var directPos=$('#directions').offset();
             var contactPos=$('#contact').offset();
@@ -69,19 +74,13 @@ jQuery(document).ready(function(){
                 setTimeout(function(){
                     $('.left').animate({
                         'opacity':1,
-                        left:40+'px'
+                        left:35+'%'
                     },1000);
                     $('.right').animate({
                         'opacity':1,
-                        right:40+'px'
+                        right:35+'%'
                     },1000);
                 },100);
-                $('.left').on('click',function(){
-                    fadeOut();
-                });
-                $('.right').on('click',function(){
-                    fadeOut();
-                });
             }
         });
     }
@@ -106,6 +105,8 @@ jQuery(document).ready(function(){
                     'opacity':1,
                     'right':40+'px'
                 },2000);
+                $('.landing-header').slideDown('slow');
+                $('.landing-content').slide('right');
             }
         });
     }else{
@@ -116,16 +117,53 @@ jQuery(document).ready(function(){
                 'right':40+'px'
             },2000);},1500);
     }
+
 });
 
+var app=angular.module("home", []);
+app.controller("navigation",function(){
+    var nav=this;
+    nav.page=sections;
+    nav.currentPage=1;
+    nav.nextPage=function(direction){
+        if(direction=='right')
+            nav.currentPage++;
+        else if(direction=='left')
+            nav.currentPage--;
+        if(nav.currentPage>4&& direction=='right')
+            return;
+        console.log(nav.page[nav.currentPage].link);
+        $("html, body").animate({
+            scrollLeft:$(nav.page[nav.currentPage].link).offset().left
+        }, 1200);
 
-function fadeOut(){
-    $('.left').animate({
-        'opacity':0,
-        left:90+'px'
-    },1000);
-    $('.right').animate({
-        'opacity':0,
-        right:90+'px'
-    },1000);
-}
+    }
+});
+
+var sections=[
+    {
+        title:'introdction',
+        link:"#home",
+        page:0
+    },
+    {
+        title:'students teaching students',
+        link:"#intro",
+        page:1
+    },
+    {
+        title:'Interdisciplinary corses',
+        link:'#newsletter',
+        page:2
+    },
+    {
+        title:'Pay What you want',
+        link:'#directions',
+        page:3
+    },
+    {
+        title:'We are partnered with',
+        link:'#contact',
+        page:4
+    }
+];
