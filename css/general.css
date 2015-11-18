@@ -226,4 +226,4 @@ td{padding:2%;}
 }
 
 #loading{  animation: blinking 1s linear .5s 15 alternate;  }
-#info span{font-weight:600;}
+.info span{font-weight:600;}
