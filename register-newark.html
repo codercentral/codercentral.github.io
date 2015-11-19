@@ -11,7 +11,7 @@
         <link href="css/courses.css" type="text/css" rel="stylesheet"/>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     </head>
-    < id="body">
+    <id="body">
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,77 +34,56 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 style="text-decoration: underline">Python Winter Bootcamp</h2>
-                    <ul style="font-family: 'Open Sans', san serifs !important;" class="info">
-                        <li><span>Location:</span> Summit Tutoring Center</li>
-                        <li><span>Date:</span> Dec 21 - 23</li>
-                        <li><span>Time:</span> 9 AM - 6 PM</li>
-                        <li><span>Age range:</span> 5th - 12th Grades</li>
-                        <li><span>Confirmation Deposit:</span> $50 (pay below)</li>
-                    </ul>
-                    <a class="btn-primary btn" href="winter-bootcamp.html"
-                       style="position:relative; z-index:5; margin-left:30%;">More Info</a>
-                    <a class="btn-default btn" href="#Pleasanton"
-                       style="position:relative; z-index:5; margin-left:30%;">Register</a>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h2 style="text-decoration: underline">Intro to Python</h2>
                     <ul style="font-family: 'Open Sans', san serifs !important;" class="info">
                         <li><span>Location:</span> Brain-O-Magic in Newark</li>
-                        <li><span>Date:</span> Dec 21 - 23</li>
+                        <li><span>Date:</span> Dec. 21 - 23</li>
                         <li><span>Time:</span> 9 AM - 5 PM</li>
-                        <li><span>Age Range:</span> 5th - 12th Grades</li>
-                        <li><span>Confirmation Deposit:</span>$75 (pay below)</li>
+                        <li><span>Age Range:</span> Grades 5 - 12</li>
+                        <li><span>Confirmation Deposit:</span> $75 (pay below)</li>
                     </ul>
                     <a class="btn-primary btn" href="python.html"
-                       style="position:relative; z-index:5; margin-left:30%;">More Info</a>
+                       style="position:relative; z-index:5; margin-left:5%;">More Info</a>
                     <a class="btn-default btn" href="#fremont"
-                       style="position:relative; z-index:5; margin-left:30%;">Register</a>
+                       style="position:relative; z-index:5; margin-left:0%;">Register</a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h2 style="text-decoration: underline">Intro to Web Design</h2>
                     <ul style="font-family: 'Open Sans', san serifs !important;" class="info">
                         <li><span>Location:</span>  Brain-O-Magic in Newark</li>
-                        <li><span>Date:</span> Dec 21 - 23</li>
+                        <li><span>Date:</span> Dec. 21 - 23</li>
                         <li><span>Time:</span> 9 AM - 5 PM</li>
-                        <li><span>Age Range:</span> 5th - 12th Grades</li>
-                        <li><span>Confirmation Deposit:</span>$75 (pay below)</li>
+                        <li><span>Age Range:</span> Grades 5 - 12</li>
+                        <li><span>Confirmation Deposit:</span> $75 (pay below)</li>
                     </ul>
                     <a class="btn-primary btn" href="webdesign.html"
-                       style="position:relative; z-index:5; margin-left:30%;">More Info</a>
+                       style="position:relative; z-index:5; margin-left:5%;">More Info</a>
                     <a class="btn-default btn" href="#fremont"
-                       style="position:relative; z-index:5; margin-left:30%;">Register</a>
+                       style="position:relative; z-index:5; margin-left:0%;">Register</a>
                 </div>
             </div>
+            <hr>
             <h1 style="text-align: center; margin:3%;">
                 Please Deposit Here Upon Filling the form
             </h1>
             <!--Authorize.net stuff-->
-            <div class="col-md-2 col-md-offset-4">
+            <!--button for authorize.net-->
+            <div class="col-md-2 col-md-offset-1" style="margin-top:2%;">
+                <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="bea93964-0f26-4266-b252-2831d6f8fab2" /> 
+                    <input class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;" type = "submit" value = "Pay Web Design Deposit Here" /> </form>
+            </div>
+            <div class="col-md-2 col-md-offset-2" >
                 <!-- (c) 2005, 2015. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="ef511ac5-89e3-4722-9e11-979506841222";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
                 <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Secure Online Payments</a> </div>
             </div>
-
             <!--button for authorize.net-->
             <div class="col-md-4" style="padding-top:2%;">
-                <form name="PrePage"  method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="7b784dc5-bb1f-40ed-a5b3-dbb088ffb885" />
-                    <input class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;" type = "submit" value = "Proceed to Deposit" /> </form>
+                <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+                    <input type = "hidden" name = "LinkId" value ="b1cf0e7e-5440-4783-b28f-0d5d930fe9a8" />
+                    <input class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;" type = "submit" value = "Pay Python Deposit Here" /> </form>
             </div>
-            <hr>
             <div class="buffer col-md-12"></div>
-            <h1 class="col-md-12 text-center">Pleasanton Bootcamp Registration</h1>
-            <div style="text-align:center; margin-top:2%;" class="col-md-12" id="loading">Scroll down, form is Loading...</div>
-            <!-- Change the width and height values to suit you best -->
-            <div id="pleasanton" class="typeform-widget" data-url="https://codercentral.typeform.com/to/FQsNhP" data-text="Winter Bootcamp Registration" style="width:100%;height:500px;"></div>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_FQsNhP&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
-            <div class="buffer"></div>
-
-            <div class="buffer"></div>
-            <div class="buffer"></div>
-            <hr>
-            <div class="buffer"></div>
             <h1 class="col-md-12 text-center">Newark Bootcamp Registration</h1>
             <div style="text-align:center; margin-top:2%;" class="col-md-12" id="loading">Form is Loading...</div>
                            <!-- Change the width and height values to suit you best -->
@@ -112,21 +91,9 @@
                 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
                 <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=X9j5hf&amp;utm_source=typeform.com-305459-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
             <div class="buffer"></div>
-            <div class="col-md-2 col-md-offset-1" style="margin-top:2%;">
-                <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="bea93964-0f26-4266-b252-2831d6f8fab2" /> <input type = "submit" value = "Pay Web Design Deposit Here" /> </form>
-                style="background-color:rgba(21, 56, 252, 0.8); color:white; position:relative; z-index:5;"
-            </div>
-            <div class="col-md-2 col-md-offset-2" >
-                <!-- (c) 2005, 2015. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="ef511ac5-89e3-4722-9e11-979506841222";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
-                <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Secure Online Payments</a> </div>
-            </div>
-            <div class="col-md-4" style="padding-top:2%;">
-                <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-                    <input  type = "hidden" name = "LinkId" value ="b1cf0e7e-5440-4783-b28f-0d5d930fe9a8" />
-                    <input class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;" type = "submit" value = "Pay Python Deposit Here" /> </form>
-                <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-            </div>
+            <hr>
         </div>
+    <div class="buffer"></div>
     <div class="buffer"></div>
     <div class="row footer" style="margin-top: 40px !important"></div>
 
