@@ -9,6 +9,11 @@
         <link rel = "shortcut icon" href = "images/favicon.ico">
         <link href="css/general.css" type="text/css" rel="stylesheet"/>
         <link href="css/courses.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/bootcamp.css">
+        <link rel="stylesheet" href="font-awesome-4.4.0%202/css/font-awesome.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
     </head>
     <body id="body">
     <script>
@@ -26,7 +31,7 @@
 
         <!---------------------------------------------------header---------------------------------------------->
 
-        <div class="header container-fluid" id="python">
+        <div class="header container-fluid" style="background-color:#2980b9;">
             <div class="container">
                 <div class="header-title">Python }</div>
                 <div class="sub-header-title">
@@ -34,143 +39,198 @@
                 </div>
             </div>
         </div>
-
-        <!---------------------------------------------------class info---------------------------------------------->
-        <div class="courseHighlight hidden-xs"></div>
-        <div class="row">
-            <div class="container course-info">
-                <div class="col-md-7 overview">
-                    <h1>Course Overview</h1>
-                    <div class="row">
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">1</span>
-                                    <img src="https://maxcdn.icons8.com/windows8/PNG/32/Programming/console-32.png" title="Console" width="32">
-                                    Expressions, Variables, Input/Output</b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">2</span>
-                                    <img src="https://maxcdn.icons8.com/Color/PNG/48/Network/data_in_both_directions-48.png" title="Data in Both Directions" width="32">
-                                    Basic Data Structures
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">3</span>
-                                    <img src="https://maxcdn.icons8.com/iOS7/PNG/32/Transport/split_filled-32.png" title="Split Filled" width="32">
-                                    Conditionals and Control Flow
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">4</span>
-                                    <img src="https://maxcdn.icons8.com/Color/PNG/48/Media_Controls/repeat-48.png" title="Repeat" width="32">
-                                    Loops and Iteration
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">5</span>
-                                    <img src="https://maxcdn.icons8.com/iOS7/PNG/32/Programming/code-32.png" title="Code" width="32">
-                                    Turtle Graphics
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">6</span>
-                                    <img src="https://maxcdn.icons8.com/Color/PNG/48/Media_Controls/repeat-48.png" title="Repeat" width="32">
-                                    Object-Oriented Programming
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">7</span>
-                                    <img src="https://maxcdn.icons8.com/iOS7/PNG/32/Ecommerce/filled_box-32.png" title="Box Filled" width="32">
-                                    Functions and Scope
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">8</span>
-                                    <img src="https://maxcdn.icons8.com/Color/PNG/48/Ecommerce/filled_box-48.png" title="Box Filled" width="32">
-                                    Classes and Objects
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">9</span>
-                                    <img src="https://maxcdn.icons8.com/iOS7/PNG/32/Programming/code-32.png" title="Code" width="32">
-                                    Working with Files
-                                </b>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 lesson well">
-                            <div class="container">
-                                <b><!-- Console icon by Icons8 -->
-                                    <span class="number">10</span>
-                                    <img src="https://maxcdn.icons8.com/Color/PNG/48/Business/voice_presentation-48.png" title="Voice Presentation" width="32">
-                                    Final Project and Student Showcase
-                                </b>
-                            </div>
-                        </div>
-                    </div>
+    <div id="page-nav" class="row container-fluid" data-spy="affix" data-offset-top="250" data-offset-bottom="200">
+        <ul class="col-md-6 col-md-offset-3">
+            <li><a id="overview" href="#">Overview</a></li>
+            <li><a id="logistics" href="#">Schedule & Location</a></li>
+            <li><a id="payment" href="#">Price</a></li>
+            <li><a id="instructor" href="#">Instructor</a></li>
+            <li><a href="register-newark.html">Register</a></li>
+        </ul>
+    </div>
+    <!---------------------------------------------------class info---------------------------------------------->
+    <section class="section" id="overviewh">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Winter Bootcamp - Course Overview</h2>
+                    <h3 class="section-subheading text-muted">December 21st to 23rd, 9:00 AM - 5:00 PM | Newark, CA</h3>
                 </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                </span>
+                    <h4 class="service-heading">Personalized Education</h4>
+                    <p class="text-muted">Our bootcamp, designed for 5th - 12th graders, simluate the format of college courses. Lessons are taught by the
+                        instructor to the whole class, and smaller workshop sections led by TA's will clarify and
+                        work through any questions, and facilitate problem solving sessions.
+                        <b>Maximum 1 - 6 teacher to student ratio.</b>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                </span>
+                    <h4 class="service-heading">Project Based Curriculum</h4>
 
-                <div class="col-md-4 col-md-offset-1 logistics">
-                    <h2>Instructor</h2>
-                    <div class="row">
-                        <div class="container-fluid well">
-                            <p><img align="right" class="instructor-img" src="images/siddprofesh.JPG" alt="Sidd Desai"/>
-                                Sidd Desai is currently an undergraduate majoring in Computer Science at UCI. With regards to programming, he is well-versed in Python, C++, and Java with some HTML, CSS, and Javascript knowledge. He is passionate about learning technology and teaching what he has learned. Sidd graduated Amador Valley High School in 2014. He was ACE Coding’s first Branch Director of the Pleasanton Library and taught a C++ workshop in conjunction with Microsoft at ACE Code Day. In high school, he was a member of the Robotics Club’s software division and also tutored students at Summit Tutoring Center. In his free time he enjoys b-boying, riding his bike, and watching anime.
-                            </p>
-                        </div>
-                    </div>
-
-                    <h2>Course Info</h2>
-
-                    <div class="row">
-                        <div class="container-fluid well info">
-                            <p><b>Dates</b> <br/>
-                                Winter Bootcamp: December 21st - 23rd <br>
-                            <p><b>Time </b> <br/>
-                                Monday - Wednesday (3 days), 9 AM - 5 PM</p>
-                            <p><b>Location </b> <br/>
-                                Brain-O-Magic, Newark</p>
-                            <p><b>Instructor/Student Ratio </b> <br/>
-                                1 to 5</p>
-                            <a href="https://codercentral.org/register-newark" class="btn btn-lg btn-primary center-block" style="margin-top: 20px">Register</a>
-                        </div>
-                    </div>
+                    <p class="text-muted">We emphasize having students learn through hands-on projects and problem sets. By
+                        the end of the bootcamp, they will have built their own website and have contributed to making a
+                        website for a small business!</p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="section row" id="logisticsh">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Schedule and Location</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+
+                <div class="col-md-6">
+                    <h4 class="service-heading">Daily Schedule</h4>
+                    <p>
+                        <style type="text/css">
+                            .tg  {border-collapse:collapse;border-spacing:0;}
+                            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;}
+                            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+                            .tg .tg-s6z2{text-align:center}
+                            .tg .tg-baqh{text-align:center;vertical-align:top}
+                        </style>
+                    <table class="tg table col-md-8 table-striped">
+                        <tr>
+                            <th class="tg-s6z2">8:30 - 9:00</th>
+                            <th class="tg-s6z2">Student Drop Off</th>
+                        </tr>
+                        <tr>
+                            <td class="tg-s6z2">9:00 - 9:15</td>
+                            <td class="tg-s6z2">Warm Up Activity</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">9:15 - 11:00</td>
+                            <td class="tg-baqh">Lesson 1</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">11:00 - 11:15</td>
+                            <td class="tg-baqh">Break/Short Activity</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">11:15 - 12:30</td>
+                            <td class="tg-baqh">Workshop 1</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">12:30 - 1:30</td>
+                            <td class="tg-baqh">Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">1:30 - 3:30</td>
+                            <td class="tg-baqh">Lesson 2</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">3:30 - 3:45</td>
+                            <td class="tg-baqh">Break/Short Activity</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">3:45 - 5:00</td>
+                            <td class="tg-baqh">Workshop 2</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-baqh">5:00 - 5:15</td>
+                            <td class="tg-baqh">Student Pick Up</td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+
+                <div class="col-md-6 info">
+                    <h3 class="service-heading" style="font-family: archiveregular !important;">Location</h3>
+                    <div><span style="text-decoration: underline;">Brain-O-Magic</span> <br>
+                        3900 Newpark Mall - Suite 100, Newark, CA 94560</div>
+                    <br>
+                    <img style="display: block;" class="col-md-12 col-xs-12" src="images/IMG_7355.JPG" alt="Summit Tutoring Center"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section row" id="paymenth">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Pay What You Want!</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-money fa-stack-1x fa-inverse"></i>
+                </span>
+                    <h4 class="service-heading">Our Payment Model</h4>
+
+                    <p class="text-muted">Bootcamps at Coder Central don't work like normal courses - you get to pay what
+                        you want when the whole course is over! We do ask for a <b>$50 deposit</b> when registering, however,
+                        to confirm your attendance for the whole bootcamp.</p>
+                </div>
+                <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-question fa-stack-1x fa-inverse"></i>
+                </span>
+                    <h4 class="service-heading">How it Works</h4>
+
+                    <p class="text-muted">Discuss with your child after the course is over and evaluate our bootcamp
+                        based on his or her experience and your overall impressions, and pay us tuition accordingly. All that we
+                        ask is that you be fair if your child enjoyed and learned a lot from our course - most other bootcamps of
+                        this length charge around $350 to $450.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section row" id="instructorh">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Meet the Instructor!</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="col-md-8 col-md-offset-2" src="images/sidd.JPG" alt="Daniel Huang Instructor"/>
+                </div>
+                <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                </span>
+                    <h4 class="service-heading">Instructor Background</h4>
+                    <p class="text-muted" style="text-align:left;">
+                        Sidd Desai is currently an undergraduate majoring in Computer Science at UCI.
+                        With regards to programming, he is well-versed in Python, C++, and Java with some HTML,
+                        CSS, and Javascript knowledge. He is passionate about learning technology and teaching what
+                        he has learned. Sidd graduated Amador Valley High School in 2014. He was ACE Coding’s first
+                        Branch Director of the Pleasanton Library and taught a C++ workshop in conjunction with
+                        Microsoft at ACE Code Day. In high school, he was a member of the Robotics Club’s software
+                        division and also tutored students at Summit Tutoring Center. In his free time he enjoys
+                        b-boying, riding his bike, and watching anime.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <h4 style="text-decoration:underline">Space is limited so reserve your spot now!</h4>
+            <a class="btn btn-success btn-lg" href="register-newark.html">Register Here</a>
+        </div>
+    </div>
 
         <div class="row footer" style="margin-top: 40px !important">
 
