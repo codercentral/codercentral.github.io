@@ -69,6 +69,15 @@ var app=angular.module("blog", []);
 
 var library=[
     {
+        title:'When should you learn coding?',
+        author:'Siddhartha Desai',
+        date:'November 19, 2015',
+        image:'images/whentolearn.jpg',
+        description:"We get asked this question a lot here at Coder Central. The fact of the matter is, there really is no" +
+        " 'magic' age where kids are suddenly ready to code. Read more to find out when your student is ready to code!",
+        link:'blogs/when-to-learn-coding.html'
+    },
+    {
         title:'What Coding Language You Should Learn?',
         author:'Jerry Li',
         date:'October 11, 2015',
