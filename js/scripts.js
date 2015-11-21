@@ -159,19 +159,3 @@ function paths(){
         $('#yellow').fadeOut();
     });
 }
-
-
-/*Angular App for Event photo gallery */
-
-var app = angular.module("photo_gallery", []);
-
-app.directive("galleries",function(){
-    return{
-        restrict:'E',
-        templateUrl:'gallery.html',
-        controller:function(){
-
-        },
-        controllerAs:'gallery'
-    };
-});
