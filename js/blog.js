@@ -69,6 +69,16 @@ var app=angular.module("blog", []);
 
 var library=[
     {
+        title:'Tests cannot inspire the next generation of innovators',
+        author:'Daniel Huang',
+        date:'November 21, 2015',
+        image:'images/stressedkid.jpg',
+        description:"With so many standardized tests, are students actually becoming smarter? More importantly,"+" they aren't " +
+        "innovating anymore. Take a look at how Coder Central is designing its classes to produce the next generation of " +
+        "young innovators.",
+        link:"blogs/Tests-cant-inspire-the-next-generation-of-innovators.html"
+    },
+    {
         title:'When should you learn coding?',
         author:'Siddhartha Desai',
         date:'November 19, 2015',
