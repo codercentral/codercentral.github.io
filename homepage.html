@@ -456,8 +456,9 @@
         confirmButtonText: "Apply now",
         cancelButtonText: "No, thank you."
     },function(isConfirm){
-        if(isConfirm){
-            window.location.href = "www.codercon.org";
+        if(isConfirm) {
+            window.location.href = "http://www.codercon.org";
+            return false;
         }
     });
 </script>
