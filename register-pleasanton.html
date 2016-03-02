@@ -49,23 +49,8 @@
     </div>
     <hr>
     <h1 style="text-align: center; margin:3%;">
-        Please Deposit Here Upon Filling the form
+        Please Deposit Below Upon Filling the form
     </h1>
-    <!--Authorize.net stuff-->
-
-    <div class="col-md-2 col-md-offset-4">
-        <!-- (c) 2005, 2015. Authorize.Net is a registered trademark of CyberSource Corporation -->
-    <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="ef511ac5-89e3-4722-9e11-979506841222";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
-        <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Secure Online Payments</a> </div>
-    </div>
-
-    <!--button for authorize.net-->
-    <div class="col-md-4" style="padding-top:2%;">
-        <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-            <input type = "hidden" name = "LinkId" value ="d4c334a3-a8d8-4950-b12b-54c9909f54d6" />
-            <input  class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;"  type = "submit" value = "Proceed to Deposit" /> </form>
-    </div>
-    <div class="buffer col-md-12"></div>
 
     <h1 class="col-md-12 text-center">Pleasanton Registration</h1>
     <div style="text-align:center; margin-top:2%;" class="col-md-12" id="loading">Scroll down, form is Loading...</div>
@@ -75,6 +60,22 @@
     <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=xHyns5&amp;utm_source=typeform.com-305459-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
 
     <hr>
+
+    <!--Authorize.net stuff-->
+
+    <div class="col-md-2 col-md-offset-4">
+        <!-- (c) 2005, 2015. Authorize.Net is a registered trademark of CyberSource Corporation -->
+        <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="ef511ac5-89e3-4722-9e11-979506841222";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
+            <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Secure Online Payments</a> </div>
+    </div>
+
+    <!--button for authorize.net-->
+    <div class="col-md-4" style="padding-top:2%;">
+        <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+            <input type = "hidden" name = "LinkId" value ="d4c334a3-a8d8-4950-b12b-54c9909f54d6" />
+            <input  class="btn btn-lg" style="background-color:rgba(0, 175, 252, 0.8); color:white; position:relative; z-index:5;"  type = "submit" value = "Proceed to Deposit" /> </form>
+    </div>
+    <div class="buffer col-md-12"></div>
 </div>
 <div class="buffer"></div>
 <div class="buffer"></div>
