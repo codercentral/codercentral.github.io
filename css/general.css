@@ -1,229 +1,26 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-    /* Styles */
-    .header-title{  font-size: 50px; margin-top: 8%; }
-    .sub-header-title{  font-size: 20px; }
-    .header-description{ font-size:12px; }
+body{font-family: 'Open Sans', sans-serif;}
+@font-face {
+    font-family: 'archiveregular';
+    src: url('../fonts/archive-webfont.eot');
+    src: url('../fonts/archive-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/archive-webfont.woff2') format('woff2'),
+    url('../fonts/archive-webfont.woff') format('woff'),
+    url('../fonts/archive-webfont.ttf') format('truetype'),
+    url('../fonts/archive-webfont.svg#archiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-    /* Styles */
-    .header-title{  font-size: 60px; margin-top: 8%; }
-    .sub-header-title{  font-size: 25px; }
-    .header-description{ font-size:12px; }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-    /* Styles */
-    .header-title{  font-size: 60px; margin-top: 8%; }
-    .sub-header-title{  font-size: 25px; }
-    .header-description{ font-size:12px; }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-    /* Styles */
-    .header-title{  font-size: 100px; margin-top: 6%; }
-    .sub-header-title{  font-size: 25px; }
-    .header-description{ font-size:12px; }
-}
-
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-    /* Styles */
-    .header-title{  font-size: 100px; margin-top: 6%; }
-    .sub-header-title{  font-size: 25px; }
-    .header-description{ font-size:12px; }
-}
-
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-    /* Styles */
-    .header-title{  font-size: 100px; margin-top: 6%; }
-    .sub-header-title{  font-size: 25px; }
-    .header-description{ font-size:12px; }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-    /* Styles */
-    .header-title{  font-size: 115px; margin-top: 5%; }
-    .sub-header-title{  font-size: 33px; }
-    .header-description{ font-size:20px; }
-}
-
-/* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-    /* Styles */
-    .header-title{  font-size: 150px;  }
-    .sub-header-title{  font-size: 33px; }
-    .header-description{ font-size:20px; }
-}
-
-body{ overflow-x:hidden; }
-
-.sub-header-title,.header-title{font-family: archiveregular, sans-serif;  }
-
-.header{
-    color: white;
-    padding-top: 1.75%;
-    padding-bottom: 4%;
-    box-sizing:border-box;
-}
-
-.track{
-    position:absolute;
-    z-index:3;
-}
-
-.header-title{ margin-right: 10%;  }
-
-.sub-header-title{ margin-bottom:1%; }
-
-.header-description{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
-
-.title-banner{
-    padding:2%;
-    border-radius:10px;
+#brand{font-family:archiveregular,'sans-serif';}
+hr{border-color:darkgrey; margin:5%;}
+.navbar, h1{font-family:'archiveregular',sans-serif;}
+footer{background-color:rgb(52,50,54);color:white;padding:8%;}
+.highlight-sec{
     margin:3% 0 3% 0;
-    color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:darkgrey;
+    color: #121524;
 }
-
-.pill{padding:2%; border-radius:10px; color:white; font-size:25px; margin:3%;}
-
-table{  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; margin:3% 0 3% 0 }
-
-td{padding:2%;}
-
-.table-title{  margin:80%;  font-size:18px;  }
-
-.table-subtitle{margin:5% 0 5% 0; font-size:16px;}
-
-.table-description{line-height:150%;}
-
-#tracks{  background-color:#23C3CD; margin-bottom:4%; }
-
-.tracks{
-    margin-top:2%;
-    margin-bottom:7%;
-}
-
-#real-tracks{  position:relative; height:120%; }
-
-.stations{
-    position:absolute;
-    width:8%; height:10%;
-    -webkit-border-radius: 100% ;
-    -moz-border-radius:100% ;
-    border-radius: 100%;
-    border-width:3px;
-}
-
-.station{position:absolute;}
-.layer-2{z-index:2;}
-.layer-1{z-index:1; display:none;}
-.layer-0{z-index:0; display:none;}
-.layer-3{ z-index:3; }
-.invis-station{
-    cursor:pointer;
-}
-.highlight-track{ height:80px; }
-.bg-station{ height:70px; margin-top:1%; cursor:pointer; }
-.all-tracks{  border-radius:10px; padding:0!important; margin:3% 0 3% 0; font-size: 20px;  }
-
-#robotics{  border: 6px solid #407AC9;  }
-#webdesign{ border: 6px solid #DA4B2F; }
-#apcs{ border: 6px solid #E7D25F; }
-#included{background-color: blueviolet}
-
-.track-content > p { text-align: center; }
-
-#included-title{
-    font-size: 80px;
-}
-
-#included-heading{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.track-content{
-    padding:5%;
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color:#F5F5F5;
-    line-height:200%;
-}
-
-#algorithms-btn{
-    position:relative;
-    top:128px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.left-stations{
-    -webkit-transform: rotate(46deg);
-    -moz-transform: rotate(46deg);
-    -ms-transform: rotate(46deg);
-    -o-transform: rotate(46deg);
-    transform: rotate(46deg);
-    position:relative;
-    left:20px;
-    top:-50px;
-}
-
-.right-stations{
-    -webkit-transform: rotate(134deg);
-    -moz-transform: rotate(134deg);
-    -ms-transform: rotate(134deg);
-    -o-transform: rotate(134deg);
-    transform: rotate(134deg);
-    position:relative;
-    top:-50px;
-}
-
-/*Blog CSS*/
-#buttons a{color:white !important;}
-#myAffixed{padding:6%;}
-#myAffixed.affix{position:fixed !important; top:70px; width:19%; padding:1%;}
-.liner{background-color:lightgrey;height:2px; margin-bottom:10%; margin-top:10%;}
-.blog-intro a{color:blue;}
-.blog-body p{line-height:175%; margin-bottom:2%;}
-.blog-body a{color:blue;}
-.blog-body .well p{line-height:100%; margin-bottom:1%;}
-.blog-body .row {padding-top: 30px; padding-bottom: 30px;}
-.blog-body .row h4 {padding-top: 10px; padding-bottom: 10px;}
-.blog-body li {line-height: 40px;}
-.blog-body li a {color: white;}
-
-/*Footer*/
-.footer p{color:lightgrey;}
-
-/*Blinking Animation*/
-
-@keyframes blinking {
-    from {opacity:1;}
-    to {opacity:0;}
-}
-
-#loading{  animation: blinking 1s linear .5s 15 alternate;  }
-.info span{font-weight:600;}
+.highlight-sec h4{font-family:archiveregular,sans-serif; font-size:2em;}
+.highlight-sec .container .glyphicon{  margin-left:30%;  font-size:2em;  }
+.highlight-sec .table{font-weight:lighter;}

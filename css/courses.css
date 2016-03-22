@@ -1,63 +1,28 @@
-#cpp{ background-color: #92C2C0; }
-
-#java{ background-color: rgb(67,51,128); }
-
-#algorithms{ background-color: skyblue; color: #606060}
-
-#algorithms-title{ font-size: 6.3em;  margin-right: 0}
-
-#algorithms-description{ font-size: 1.25em}
-
-#iOS{ background: linear-gradient(orange, orangered);}
-
-#python{
-    background-color: #3773A7;
-    color: #FFD03F;
+header{
+    background-color:#16a085;
+    height:43vh;
+    width:100%;
 }
-
-b{
-    font-family: archiveregular, sans-serif;
+header .title{padding:6% 5% 0 5%; font-size:8em; color:white;}
+header .sub-title{padding:5px 5% 5% 6%; font-size:2em;}
+.page-nav{
+    width:98.75vw;
+    padding-top:2.5vh;
+    padding-bottom:.5vh;
+    background-color:#95a5a6;  color:#95a5a6;
+    opacity:1 !important;
 }
-
-.courseHighlight{
-    background-color:lightgrey;
-    height:100%;
-    width:61%;
-    position:absolute;
-    z-index:-2;
+.page-nav ul{  list-style-type: none;  text-align: center;  }
+.page-nav li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
 }
-
-.course-info{  margin-top: 3em;  }
-
-.lesson:first-child{
-    margin-top: 2em;
+.page-nav a{color:#2c3e50; text-decoration:none;}
+.affix{
+    top:50px;
+    z-index:5;
 }
-
-b img{
-    margin-right: 1em;
-}
-
-.lesson{
-    padding-top: .625em;
-    padding-bottom: .625em;
-}
-
-.number{
-    font-size: 1.8em;
-    margin-right: 0.9em;
-}
-
-.instructor-img{
-    display: inline-block;
-    height: 10em;
-    margin: 0 0 0.5em 1em;
-}
-
-.space{
-    opacity: 0;
-}
-
-.info button{
-    margin-left: 30%;
-}
-
+.date{  font-family:archiveregular, 'sans-serif';  color:grey;  margin-bottom:3%;  }
+.icon{font-size:10em;margin:1% 0 3% 35%;color:#3498db;}
+.lighter{font-weight:lighter;}
