@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3e083-2ba4-4874-9532-3cf490fdf63f" name="Default" comment="updated pleasanton registration.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/cpp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/graphics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/iOS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/included.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/python.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/html/register-newark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/webdesign.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/winter-bootcamp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old files/youthprograms.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/algorithms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-side-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/graphics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homepage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/included.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/register-newark.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webdesign.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/winter-bootcamp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/youthprograms.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/old files/html/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses.html" afterPath="$PROJECT_DIR$/courses.html" />
     </list>
@@ -69,7 +28,7 @@
       <file leaf-file-name="register-pleasanton.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register-pleasanton.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7307692">
+            <state vertical-scroll-proportion="-20.346153">
               <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -85,6 +44,16 @@
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#6;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="included.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="included.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old files/html/included.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35656837">
+            <state vertical-scroll-proportion="-5.1153846">
               <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding />
             </state>
@@ -245,9 +214,9 @@
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/register-pleasanton.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/parents.html" />
         <option value="$PROJECT_DIR$/courses.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -464,12 +433,6 @@
       <created>1440390009188</created>
       <option name="number" value="Default" />
       <updated>1440390009188</updated>
-    </task>
-    <task id="LOCAL-00097" summary="registerrrr">
-      <created>1445193763485</created>
-      <option name="number" value="00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1445193763486</updated>
     </task>
     <task id="LOCAL-00098" summary="minor bug edits">
       <created>1445915171316</created>
@@ -759,16 +722,22 @@
       <option name="project" value="LOCAL" />
       <updated>1456899335173</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="updated pleasanton registration.">
+      <created>1459229378772</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1459229378773</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1669107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.48535872" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.48535872" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33543307" sideWeight="0.55197656" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33543307" sideWeight="0.44802344" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1010,27 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register-pleasanton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7307692">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#6;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
@@ -1065,8 +1013,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/old files/html/included.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35656837">
+        <state vertical-scroll-proportion="-5.1153846">
           <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-pleasanton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.346153">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#6;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
