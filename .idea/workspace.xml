@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d3e083-2ba4-4874-9532-3cf490fdf63f" name="Default" comment="">
+    <list default="true" id="72d3e083-2ba4-4874-9532-3cf490fdf63f" name="Default" comment="updated crap">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start-up-academy.html" afterPath="$PROJECT_DIR$/start-up-academy.html" />
     </list>
@@ -60,12 +60,11 @@
       <file leaf-file-name="start-up-academy.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-up-academy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73913044">
-              <caret line="145" column="42" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+            <state vertical-scroll-proportion="-0.6467391">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#b#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#b#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -414,12 +413,6 @@
       <option name="number" value="Default" />
       <updated>1440390009188</updated>
     </task>
-    <task id="LOCAL-00105" summary="shrunk logo">
-      <created>1446065701675</created>
-      <option name="number" value="00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1446065701675</updated>
-    </task>
     <task id="LOCAL-00106" summary="minor edits">
       <created>1446065897215</created>
       <option name="number" value="00106" />
@@ -708,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461470906544</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="updated crap">
+      <created>1461471674013</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1461471674014</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -747,7 +746,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed mobile + navbar" />
     <MESSAGE value="new page is up!" />
     <MESSAGE value="new page edits" />
     <MESSAGE value="added payment buttons, and stuff" />
@@ -772,7 +770,8 @@
     <MESSAGE value="updated pleasanton registration." />
     <MESSAGE value="updated course information" />
     <MESSAGE value="updated courses button" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated courses button" />
+    <MESSAGE value="updated crap" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated crap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,7 +872,6 @@
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1213,12 +1211,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start-up-academy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73913044">
-          <caret line="145" column="42" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.6467391">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
