@@ -60,8 +60,8 @@
       <file leaf-file-name="start-up-academy.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-up-academy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73913044">
-              <caret line="158" column="109" selection-start-line="158" selection-start-column="109" selection-end-line="158" selection-end-column="109" />
+            <state vertical-scroll-proportion="0.2771739">
+              <caret line="229" column="113" selection-start-line="229" selection-start-column="113" selection-end-line="229" selection-end-column="113" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -413,12 +413,6 @@
       <option name="number" value="Default" />
       <updated>1440390009188</updated>
     </task>
-    <task id="LOCAL-00111" summary="fixed vertical scrolling">
-      <created>1446227992020</created>
-      <option name="number" value="00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1446227992020</updated>
-    </task>
     <task id="LOCAL-00112" summary="fixed scrolling issue for goooddd">
       <created>1446240365285</created>
       <option name="number" value="00112" />
@@ -707,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461472422841</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="updated crap">
+      <created>1461472565499</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1461472565499</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1211,8 +1211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start-up-academy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73913044">
-          <caret line="158" column="109" selection-start-line="158" selection-start-column="109" selection-end-line="158" selection-end-column="109" />
+        <state vertical-scroll-proportion="0.2771739">
+          <caret line="229" column="113" selection-start-line="229" selection-start-column="113" selection-end-line="229" selection-end-column="113" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
