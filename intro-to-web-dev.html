@@ -1,3 +1,4 @@
+<!-- include pricing; location with time/place; description-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,21 +74,33 @@
         <h3 class="date">
             June 13 - June 17, 4:00pm - 6:00pm | San Ramon, CA</h3> <!-- Still need to confirm date -->
     </div>
+
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
+            <h3 class="text-center"><b>Web Design</b></h3>
+            <div class="row">
+                <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" class="col-md-6 col-md-offset-3" height="161" width="242.500">
+            </div>
+            
+                Students will learn how to <b>build their own website using HTML and CSS</b>. HTML allows students to create their webpage, while CSS will allow them to design the page and utilize their creative skills. We will also be teaching them how to use
+                basic <b>JavaScript</b> -- a powerful programming language used primarily for scripting in web development.
+            
+        </div>
+        <div class="col-md-6">
             <h3 class="text-center"><b>No Experience Necessary</b></h3>
                 <i class="glyphicon glyphicon-thumbs-up icon"></i><br>
-                All curriculum for this bootcamp are designed for <b>beginners</b>. The students should come to be creative,
-                motivated, and eager to learn!
+                All curriculum for this bootcamp are designed for <b>beginners</b>. Students <b>do not</b> need prior experience in programming to join the class. Students should simply bring their creativity, motivation, and desire to learn!
         </div>
-        <div class="col-md-4">
+    </div>
+    <div class="row">
+        <div class="col-md-6">
             <h3 class="text-center"><b>Personalized education</b></h3>
             <i class="glyphicon glyphicon-education icon"></i><br>
                 Our bootcamp, designed for 6th - 12th graders, simulate the format of college courses.
                 Lessons are taught by the instructor to the whole class, and smaller workshop sections
                 led by TA's will clarify and work through any questions, and facilitate brainstorming, problem solving, and designing sessions.
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h3 class="text-center"><b>Project Based Curriculum</b></h3>
             <i class="glyphicon glyphicon-comment icon"></i><br>
                 We emphasize having students learn through hands-on projects and problem sets. By the end
@@ -98,9 +111,10 @@
 <div class="container-fluid highlight-sec">
     <div class="container">
         <h1 class="text-center" id="logistics">Location</h1>
+        <h2 class="text-center">San Ramon, TBD</h2>
 
         <!-- embeds google map with location of class-->
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
+        <!--<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
         </script>
         <style type="text/css">
             .map{
@@ -115,17 +129,7 @@
             </div>
             <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
         </div>
-        <script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(37.7749383,-121.9223771),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.7749383,-121.9223771)});infowindow = new google.maps.InfoWindow({content:'<strong>Think Tank San Ramon</strong><br>11040 Bollinger Canyon Rd, San Ramon, CA 94582<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-    </div>
-</div>
-
-<div class="container-fluid highlight-sec" id="instructors">
-    <div class="container">
-        <h1 class="text-center">Meet the Instructor</h1>
-        <div class="col-md-12 lighter">
-            <h3 class="text-center"><b>Eric Guo</b></h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit felis et odio iaculis, sit amet rutrum magna tincidunt. In fringilla convallis ligula, in venenatis tortor malesuada quis. Fusce est lorem, semper ullamcorper lobortis vitae, tristique a arcu. Nulla tincidunt dolor magna, at pellentesque odio sollicitudin et. Phasellus accumsan non augue eget congue. Aliquam id arcu maximus, mattis neque eu, mollis nisi. Vestibulum ut tortor placerat eros dignissim sodales. Mauris elementum purus nisi, sit amet aliquet diam gravida sit amet. Nulla facilisi. Nam aliquam ipsum at mauris efficitur, ac cursus risus egestas. Vestibulum vitae elementum quam. Aenean et odio maximus, suscipit lacus vel, placerat mauris. Aliquam arcu quam, porta sed ligula efficitur, tempor tristique elit. Etiam vestibulum enim nec dui fermentum finibus. Suspendisse lobortis quam ut metus rutrum, et faucibus magna bibendum.
-        </div>
+        <script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(37.7749383,-121.9223771),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.7749383,-121.9223771)});infowindow = new google.maps.InfoWindow({content:'<strong>Think Tank San Ramon</strong><br>11040 Bollinger Canyon Rd, San Ramon, CA 94582<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> -->
     </div>
 </div>
 <div class="container">
@@ -143,6 +147,15 @@
         <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="https://www.typeform.com/examples/forms/?utm_campaign=b8DuVO&amp;utm_source=typeform.com-305459-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
     </div>
 
+</div>
+<div class="container-fluid highlight-sec" id="instructors">
+    <div class="container">
+        <h1 class="text-center">Meet the Instructor</h1>
+        <div class="col-md-12 lighter">
+            <h3 class="text-center"><b>Eric Guo</b></h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit felis et odio iaculis, sit amet rutrum magna tincidunt. In fringilla convallis ligula, in venenatis tortor malesuada quis. Fusce est lorem, semper ullamcorper lobortis vitae, tristique a arcu. Nulla tincidunt dolor magna, at pellentesque odio sollicitudin et. Phasellus accumsan non augue eget congue. Aliquam id arcu maximus, mattis neque eu, mollis nisi. Vestibulum ut tortor placerat eros dignissim sodales. Mauris elementum purus nisi, sit amet aliquet diam gravida sit amet. Nulla facilisi. Nam aliquam ipsum at mauris efficitur, ac cursus risus egestas. Vestibulum vitae elementum quam. Aenean et odio maximus, suscipit lacus vel, placerat mauris. Aliquam arcu quam, porta sed ligula efficitur, tempor tristique elit. Etiam vestibulum enim nec dui fermentum finibus. Suspendisse lobortis quam ut metus rutrum, et faucibus magna bibendum.
+        </div>
+    </div>
 </div>
 <footer>
     <div class="container">
