@@ -1,7 +1,10 @@
 
 header{
     height: 100vh;
-    background-image: url(../images/slideshow/DSC_0266.JPG);
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+    ), url(../images/slideshow/DSC_0266.JPG);
     background-size: cover;
     position: center;
     margin-bottom: 50px;
@@ -14,19 +17,14 @@ header{
 header .wrapper{
     width:100%;
     height:inherit;
-    background-color:black;
-    opacity: .8;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 #logo{cursor:pointer;}
 .btn{opacity:1 !important;}
+#class{background-color:#3498db; color:white;}
 h1{margin-bottom:3%;}
-.navbar.clear{  background:transparent;  border:none;  }
-.clear .navbar-right li a{ color:white; }
-.clear .navbar-right .dropdown .dropdown-menu{background-color:transparent;border:none;}
-.clear .dropdown-menu a:hover{background-color:black!important; opacity:.8;}
 
 #letter{line-height:200%;font-size:1.1em;}
 
