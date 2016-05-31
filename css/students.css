@@ -1,0 +1,39 @@
+.wrapper{}
+.header{
+    height:56vh;
+}
+#image{
+    position:absolute;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+    ), url("../images/girlsTalking.jpg") no-repeat 0 30%;
+    background-size:cover;
+    -webkit-filter: blur(1px);
+    height:56vh;
+    width:100%;
+}
+.header h1{
+    margin-top:18vh;
+    font-size:8em;
+    position:relative;
+    z-index:10;
+    color:white;
+}
+.header h1 span{
+    font-family:'Open Sans', sans-serif;
+    font-size:.3em;
+}
+
+#section1 h3{font-family: 'archiveregular', sans-serif;}
+.btn{margin:5%}
+
+#sign-up{
+    background-color:#2ecc71;
+    color:white;
+    margin-bottom:75px;
+}
+
+.description{
+    margin-bottom:5%;
+}

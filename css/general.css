@@ -13,6 +13,10 @@ body{font-family: 'Open Sans', sans-serif;}
 #brand{font-family:archiveregular,'sans-serif';}
 hr{border-color:darkgrey; margin:5%;}
 .navbar, h1{font-family:'archiveregular',sans-serif;}
+.navbar.clear{  background:transparent;  border:none;  }
+.clear .navbar-right li a{ color:white; }
+.clear .navbar-right .dropdown .dropdown-menu{background-color:transparent;border:none;}
+.clear .dropdown-menu a:hover{background-color:black!important; opacity:.8;}
 footer{background-color:rgb(52,50,54);color:white;padding:8%;}
 .highlight-sec{
     margin:3% 0 3% 0;
