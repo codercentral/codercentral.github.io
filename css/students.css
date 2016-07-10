@@ -1,7 +1,5 @@
 .wrapper{}
-.header{
-    height:56vh;
-}
+.header{  height:56vh;  }
 #image{
     position:absolute;
     background: linear-gradient(
@@ -23,6 +21,21 @@
 .header h1 span{
     font-family:'Open Sans', sans-serif;
     font-size:.3em;
+}
+@media only screen and (max-width: 500px) {
+    .header{  height:40vh;  }
+    #image{height:40vh;}
+    .header h1{
+        margin-top:18vh;
+        font-size:4em;
+        position:relative;
+        z-index:10;
+        color:white;
+    }
+    .header h1 span{
+        font-family:'Open Sans', sans-serif;
+        font-size:.5em;
+    }
 }
 
 #section1 h3{font-family: 'archiveregular', sans-serif;}
