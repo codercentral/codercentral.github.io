@@ -29,7 +29,36 @@
         </div>
     </div>
     <nav class="navbar navbar-default navbar-fixed-top clear">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" id="brand">Coder Central</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="courses.html">Explore all</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="start-up-academy.html">Start-up Academy</a></li>
+                            <li><a href="intro-to-web-dev.html">Intro to Web Development</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="parents.html">Parents</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
 </header>
 <div class="container">
@@ -101,15 +130,32 @@
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object" src="images/teachers/jimmy-kim-thumbnail.jpg"
-                             alt="Jimmy Kim, teacher at Coder Central">
+                        <img class="media-object" src="images/dhprofessional.jpg"
+                             alt="Daniel Huang, teacher at Coder Central" style="height:auto; width:150px;">
                     </a>
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">Jimmy Kim</h4>
-                    Currently a senior at Amador Valley High School, Jimmy is an experienced programmer.
-                    He has actively participated in US Computing Olympiad competitions and scored a 5 on the AP Computer Science test.
-                    In his free time he likes to watch movies and create apps.<br>
+                    <h4 class="media-heading">Daniel Huang</h4>
+                    Currently a 3rd year at UCLA, Daniel studies Economics and Accounting.
+                    On the side he is a web developer for several student organizations. He founded
+                    Coder Central 2 years ago and has taught C++, web development, and business since then.
+                    <br><br>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="images/sidd.JPG"
+                             alt="Siddhartha Desai, teacher at Coder Central" style="height:150px; width:150px;">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Siddhartha Desai</h4>
+                    A senior at UC Irvine, Siddhartha studies Computer Science. In high school he directed
+                    ACE Coding classes at the Pleasanton Library for elementary to middle school students. He has
+                    taught Python and C++ at Coder Central for 2 years.
+                    <br><br>
                     <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
@@ -147,21 +193,80 @@
     </div>
 </div>
 <footer class="footerz">
+    <div class="container">
+        <div class="col-md-3">
+            <h4>Why code?</h4><div class="line"></div>
+            <p>As everything becomes more automated, it is more important than ever have skills that
+                won't be taken over by programed robots. Furthermore, it develops students' critical thinking skills that
+                translate well into other subjects.
+            </p>
+            <a href="">Learn More</a>
+        </div>
+        <div class="col-md-3">
+            <h4>Why us?</h4>
+            <div class="line"></div>
+            <p>
+                Our instructors attend schools such as UCLA and UC Irvine. They are also members of prestigious clubs
+                such as Amador Valley's internationally award winning AV Botz team and ACE Coding.
+                However, our most important quality is that we strive to replicate a real-world working environment...
+            </p>
+            <a href="">Learn More</a>
+        </div>
+        <div class="col-md-3">
+            <h4>What do we teach?</h4>
+            <div class="line"></div>
+            <p>
+                Our approach is collaborative application-based teaching for each student. Our goal is to have students leave
+                with a skillset that can be applied to real world-applications such as building a robot/machine, website, or
+                teaching other students programming...
+            </p>
+            <a href="">Learn More</a>
+        </div>
+        <div class="col-md-3">
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup1{background:rgb(52,50,54); clear:left; font:14px Helvetica,Arial,sans-serif; color:white;  }
+                #mc_embed_signup1 #mc_embed_signup_scroll .mc-field-group input{color:black;}
+                .button{color:black}
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup1">
+                <form action="//codercentral.us11.list-manage.com/subscribe/post?u=c289b10e3c1833e502c562f26&amp;id=628b8c4af6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <h2>Subscribe to our mailing list</h2>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                            </label>
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_c289b10e3c1833e502c562f26_628b8c4af6" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                <a href="https://icons8.com">Icon pack by Icons8</a>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+            <!-- (c) 2005, 2015. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="ef511ac5-89e3-4722-9e11-979506841222";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script> <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Secure Online Payments</a> </div>
+        </div>
+
+        <h3 class="col-md-12 text-center">info@codercentral.org (925)858-3958</h3>
+    </div>
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-<script   src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"   integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo="   crossorigin="anonymous"></script>
-<script src="jquery-ui/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+
 <script>
     (function(){
-        $.get( "navbar.html", function( data ) {
-            $( ".navbar" ).html( data );
-            //alert( "Load was performed." );
-        });
-        $.get( "footerz.html", function( data ) {
-            $( ".footerz" ).html( data );
-            //alert( "Load was performed." );
-        });
         $("#logo").click(function() {
             $('html, body').animate({
                 scrollTop: $("#testimonials").offset().top-50
@@ -172,9 +277,9 @@
                 var st = $(this).scrollTop();
                 var $nav=$('.navbar-fixed-top');
                 if(st<1){
-                    $nav.switchClass('not-clear','clear',500);
+                    $nav.switchClass('not-clear','clear',1300);
                 }else{
-                    $nav.switchClass('clear','not-clear',500);
+                    $nav.switchClass('clear','not-clear',1300);
                 }
             });
         },500);
