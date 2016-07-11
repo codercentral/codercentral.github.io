@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3e083-2ba4-4874-9532-3cf490fdf63f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/parents.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/albert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/boris.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brian.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cole.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jerry.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jerry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/path_template.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/paths_full.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG_8468.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG_8513.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG_8536.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG_8537.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Startup Academy Group.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses.html" afterPath="$PROJECT_DIR$/courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/courses.css" afterPath="$PROJECT_DIR$/css/courses.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parents.html" afterPath="$PROJECT_DIR$/parents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start-up-academy.html" afterPath="$PROJECT_DIR$/start-up-academy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/students.html" afterPath="$PROJECT_DIR$/students.html" />
     </list>
     <ignored path="codercentral.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -458,12 +447,6 @@
       <option name="number" value="Default" />
       <updated>1440390009188</updated>
     </task>
-    <task id="LOCAL-00120" summary="homepage, angular stuff, updated info stuff">
-      <created>1447790716975</created>
-      <option name="number" value="00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1447790716975</updated>
-    </task>
     <task id="LOCAL-00121" summary="most updated class info on the included page">
       <created>1447790835054</created>
       <option name="number" value="00121" />
@@ -752,7 +735,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468188980757</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="created parents page, updated courses, homepage, and more">
+      <created>1468201325744</created>
+      <option name="number" value="00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1468201325744</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="most updated class info on the included page" />
     <MESSAGE value="updated register page and stuff" />
     <MESSAGE value="updated register page" />
     <MESSAGE value="updated with blog post, fixed registration pages" />
@@ -836,7 +824,8 @@
     <MESSAGE value="made date more obvious" />
     <MESSAGE value="updated home page" />
     <MESSAGE value="responsive fix students and startup academy" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive fix students and startup academy" />
+    <MESSAGE value="created parents page, updated courses, homepage, and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="created parents page, updated courses, homepage, and more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
