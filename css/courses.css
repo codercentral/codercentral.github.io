@@ -31,3 +31,14 @@ header .sub-title{padding:5px 5% 5% 6%; font-size:2em;}
 .date{  font-family:'Open Sans', 'sans-serif';  color:black;  margin-bottom:3%;  }
 .icon{font-size:10em;margin:1% 0 3% 35%;color:#3498db;}
 .lighter{font-weight:lighter;}
+
+/*Testimonials*/
+#testimonials{
+    background-color:#f1c40f;
+    color:black;
+    height:90vh;
+    padding:0;
+    margin-top:150px;
+}
+.carousel{height:90vh;}
+.item{  padding:10% 20% 20% 20%;  }
